@@ -1,0 +1,105 @@
+[
+  {
+    "id": "'embers'",
+    "level": "0",
+    "type": "'ranged'",
+    "atk": "95%",
+    "dmg": "0%",
+    "crit": "5%",
+    "launch": "23",
+    "target": "~23",
+    "is_crit_valid": "True",
+    "effect": [
+      "'CM Torch Decrease Minor 1'",
+      "'CM Damge Taken Debuff 1'",
+      "'CM Poised Healing Done Buff 1'",
+      "'CM Poised Blight Buff 1'",
+      "'CM Poised Bleed Buff 1'"
+    ],
+    "generation_guaranteed": "true"
+  },
+  {
+    "id": "'strike_match'",
+    "level": "0",
+    "type": "'melee'",
+    "atk": "0%",
+    "dmg": "0%",
+    "crit": "0%",
+    "self_target_valid": "true",
+    "launch": "1234",
+    "target": "@1234",
+    "is_crit_valid": "True",
+    "effect": [
+      "'CM Torch Increase Minor 1'",
+      "'CM Healdot 1'",
+      "'CM Acc Buff 1'",
+      "'CM Wild Healing Taken Buff 1'",
+      "'CM Wild Max Damage Done Buff 1'",
+      "'CM Wild Min Damage Done Debuff 1'"
+    ],
+    "is_stall_invalidating": "false"
+  },
+  {
+    "id": "'frenzy'",
+    "level": "0",
+    "type": "'melee'",
+    "atk": "0%",
+    "dmg": "0%",
+    "crit": "0%",
+    "self_target_valid": "true",
+    "launch": "123",
+    "target": "@1234",
+    "is_crit_valid": "True",
+    "effect": [
+      "'CM Torch Decrease Major 1",
+      "'CM Single Damge Taken Debuff 1'",
+      "'CM Single Min Damage Done Debuff 1'",
+      "'CM Single Max Damage Done Buff 1",
+      "'CM Poised Healing Done Buff 1'",
+      "'CM Poised Blight Buff 1'",
+      "'CM Poised Bleed Buff 1'"
+    ],
+    "is_stall_invalidating": "false"
+  },
+  {
+    "id": "'blazing_star'",
+    "level": "0",
+    "heal": "3 4",
+    "crit": "0%",
+    "self_target_valid": "true",
+    "per_battle_limit": 2,
+    "launch": "432",
+    "target": "@~1234",
+    "is_crit_valid": "True",
+    "effect": [
+      "'CM Torch Increase Major 1",
+      "'CM Healing Done Buff 1",
+      "'CM Wild Healing Taken Buff 1'",
+      "'CM Wild Max Damage Done Buff 1'",
+      "'CM Wild Min Damage Done Debuff 1'"
+    ],
+    "is_stall_invalidating": "false"
+  },
+  {
+    "id": "'snuff'",
+    "level": "0",
+    "type": "melee",
+    "atk": "-100%",
+    "dmg": "0%",
+    "crit": "0%",
+    "self_target_valid": "true",
+    "launch": "12",
+    "target": "",
+    "is_crit_valid": "True",
+    "effect": [
+      "'CM Snuff Torch 1",
+      "'stealth_self'",
+      "'CM Protection Buff 1",
+      "'CM Healing Done Buff 1",
+      "'CM Poised Healing Done Buff 1'",
+      "'CM Poised Blight Buff 1'",
+      "'CM Poised Bleed Buff 1'"
+    ],
+    "is_stall_invalidating": "false"
+  }
+]
