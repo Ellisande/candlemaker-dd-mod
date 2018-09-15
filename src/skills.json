@@ -4,7 +4,7 @@
     "level": "0",
     "type": "'ranged'",
     "atk": "95%",
-    "dmg": "-10%",
+    "dmg": "-15%",
     "crit": "5%",
     "launch": "23",
     "target": "~23",
