@@ -63,7 +63,7 @@ const rootReducer = (state, action) => {
     return {
       buffs: [],
       effects: [],
-      torch: 0
+      torch: 50
     };
   }
   return reducers.reduce(
