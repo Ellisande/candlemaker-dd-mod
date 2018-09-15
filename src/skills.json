@@ -4,7 +4,7 @@
     "level": "0",
     "type": "'ranged'",
     "atk": "95%",
-    "dmg": "0%",
+    "dmg": "-10%",
     "crit": "5%",
     "launch": "23",
     "target": "~23",
@@ -12,9 +12,7 @@
     "effect": [
       "'CM Torch Decrease Minor 1'",
       "'CM Damge Taken Debuff 1'",
-      "'CM Poised Healing Done Buff 1'",
-      "'CM Poised Blight Buff 1'",
-      "'CM Poised Bleed Buff 1'"
+      "'CM Poised 1'"
     ],
     "generation_guaranteed": "true"
   },
@@ -29,14 +27,7 @@
     "launch": "1234",
     "target": "@1234",
     "is_crit_valid": "True",
-    "effect": [
-      "'CM Torch Increase Minor 1'",
-      "'CM Healdot 1'",
-      "'CM Acc Buff 1'",
-      "'CM Wild Healing Taken Buff 1'",
-      "'CM Wild Max Damage Done Buff 1'",
-      "'CM Wild Min Damage Done Debuff 1'"
-    ],
+    "effect": ["'CM Torch Increase Minor 1'", "'CM Healdot 1'", "'CM Wild 1'"],
     "is_stall_invalidating": "false"
   },
   {
@@ -55,9 +46,7 @@
       "'CM Single Damge Taken Debuff 1'",
       "'CM Single Min Damage Done Debuff 1'",
       "'CM Single Max Damage Done Buff 1",
-      "'CM Poised Healing Done Buff 1'",
-      "'CM Poised Blight Buff 1'",
-      "'CM Poised Bleed Buff 1'"
+      "'CM Poised 1'"
     ],
     "is_stall_invalidating": "false"
   },
