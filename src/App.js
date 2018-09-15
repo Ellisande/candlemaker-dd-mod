@@ -58,8 +58,8 @@ const RawAction = ({ use, skill, effect, className }) => {
 };
 
 const activeTorch = (buff, torch) =>
-  (buff.rule_type === "lightabove" && torch >= buff.rule_data.float) ||
-  (buff.rule_type === "lightbelow" && torch <= buff.rule_data.float);
+  (buff.rule_type === "lightabove" && torch > buff.rule_data.float) ||
+  (buff.rule_type === "lightbelow" && torch < buff.rule_data.float);
 const activeBuffSelector = state => {
   const initialBuffs = state.buffs;
   const onlyActive = initialBuffs.filter(buff =>
