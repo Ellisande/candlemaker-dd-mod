@@ -16,9 +16,9 @@ const base = {
   target: "~23",
   is_crit_valid: "True",
   effect: [
-    "'CM Torch Decrease Minor 1'",
-    "'CM Damge Taken Debuff 1'",
-    "'CM Poised 1'"
+    "'CM Torch Decrease Minor 0'",
+    "'CM Damge Taken Debuff 0'",
+    "'CM Poised 0'"
   ],
   generation_guaranteed: "true"
 };
