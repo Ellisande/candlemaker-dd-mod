@@ -1,36 +1,5 @@
 [
   {
-    "name": "'CM Poised 1'",
-    "target": "'performer_group'",
-    "curio_result_type": "'positive'",
-    "chance": "100%",
-    "duration": "4",
-    "buff_ids": [
-      "'POISED_BLIGHT_BUFF_1'",
-      "'POISED_BLEED_BUFF_1'",
-      "'POISED_HEALING_DONE_BUFF_1'"
-    ],
-    "on_hit": "true",
-    "on_miss": "true",
-    "apply_once": "false"
-  },
-  {
-    "name": "'CM Wild 1'",
-    "target": "'performer_group'",
-    "curio_result_type": "'positive'",
-    "chance": "100%",
-    "duration": "4",
-    "buff_ids": [
-      "'WILD_HEALING_TAKEN_BUFF_1'",
-      "'WILD_MIN_DAMAGE_DONE_DEBUFF_1'",
-      "'WILD_DAMAGE_DONE_BUFF_1'"
-    ],
-    "on_hit": "true",
-    "on_miss": "true",
-    "apply_once": "false"
-  },
-
-  {
     "name": "'Darkness 3'",
     "target": "'global'",
     "chance": "100%",
@@ -40,28 +9,6 @@
     "on_miss": "false",
     "apply_once": "true",
     "queue": "true"
-  },
-  {
-    "name": "'CM Torch Decrease Minor 1'",
-    "target": "'global'",
-    "chance": "100%",
-    "curio_result_type": "'negative'",
-    "torch_decrease": "5",
-    "on_hit": "true",
-    "on_miss": "false",
-    "apply_once": "true",
-    "queue": "true"
-  },
-  {
-    "name": "'CM Damge Taken Debuff 1'",
-    "target": "'target'",
-    "curio_result_type": "'negative'",
-    "chance": "100%",
-    "duration": "4",
-    "buff_ids": "'DAMAGE_TAKEN_INCREASE_1'",
-    "on_hit": "true",
-    "on_miss": "false",
-    "apply_once": "false"
   },
   {
     "name": "'Light 3'",
@@ -84,26 +31,5 @@
     "on_miss": "true",
     "apply_once": "true",
     "queue": "true"
-  },
-  {
-    "name": "'CM Torch Increase Minor 1'",
-    "target": "'global'",
-    "chance": "100%",
-    "curio_result_type": "'positive'",
-    "torch_increase": "6",
-    "on_hit": "true",
-    "on_miss": "true",
-    "apply_once": "true",
-    "queue": "true"
-  },
-  {
-    "name": "'CM Healdot 1'",
-    "target": "'target'",
-    "curio_result_type": "'positive'",
-    "chance": "100%",
-    "dotHpHeal": "2",
-    "duration": "3",
-    "on_hit": "true",
-    "on_miss": "true"
   }
 ]
