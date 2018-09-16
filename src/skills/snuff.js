@@ -9,7 +9,7 @@ const base = {
   is_crit_valid: "False",
   effect: [
     "'Clearguard'",
-    "'CM Snuff Torch 0",
+    "'CM Snuff Torch 0'",
     "'Stealth'",
     "'CM Damage Done Decrease 0",
     "'CM Poised 0'",
