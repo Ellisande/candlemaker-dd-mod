@@ -4,7 +4,7 @@ const base = {
   target: "'performer_group'",
   curio_result_type: "'positive'",
   chance: "100%",
-  duration: "4",
+  duration: "3",
   buff_ids: "'POISED_HEALING_TAKEN_BUFF_0'",
   on_hit: "true",
   on_miss: "true",
