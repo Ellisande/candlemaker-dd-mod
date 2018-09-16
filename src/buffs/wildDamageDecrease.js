@@ -3,7 +3,7 @@ const base = {
   id: "WILD_MIN_DAMAGE_DONE_DEBUFF_0",
   stat_type: "combat_stat_multiply",
   stat_sub_type: "damage_low",
-  amount: 0.3,
+  amount: -0.25,
   duration: 4,
   remove_if_not_active: false,
   rule_type: "lightbelow",
