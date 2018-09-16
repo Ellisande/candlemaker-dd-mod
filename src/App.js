@@ -6,7 +6,7 @@ import "./App.css";
 import JsonPretty from "react-json-pretty";
 import buffs from "./buffs.json";
 import effects from "./effects.json";
-import skills from "./skills.json";
+import skills from "./skills";
 import hydrateSkill from "./stitch";
 import store from "./stores";
 

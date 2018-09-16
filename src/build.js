@@ -1,6 +1,6 @@
 const convert = require("./convert");
 const fs = require("fs");
-const skills = require("./skills.json");
+const skills = require("./skills");
 const effects = require("./effects.json");
 
 const enabled = ["'strike_match'", "'embers'"];
