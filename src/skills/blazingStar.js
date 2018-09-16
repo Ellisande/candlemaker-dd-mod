@@ -1,8 +1,8 @@
 const { critScale, effectsScale, generateLevels } = require("./skillUtils");
 
 const baseHeal = {
-  low: 3,
-  high: 5
+  low: 1,
+  high: 3
 };
 const base = {
   id: "'blazing_star'",
@@ -10,7 +10,7 @@ const base = {
   heal: `${baseHeal.low} ${baseHeal.high}`,
   crit: "5%",
   self_target_valid: "true",
-  per_battle_limit: 2,
+  per_battle_limit: 1,
   launch: "432",
   target: "@1234",
   is_crit_valid: "True",

@@ -2,7 +2,7 @@ const { generateLevels, nameScale } = require("./effectUtils");
 
 const healBase = {
   low: 1,
-  high: 3
+  high: 1
 };
 const base = {
   name: "'CM Group Healdot 0'",
