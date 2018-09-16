@@ -26,6 +26,6 @@ const allLevels = generateLevels(level => ({
   torch_increase: torchLevels[level]
 }));
 
-console.log(allLevels);
+// console.log(allLevels);
 
 module.exports = allLevels;
