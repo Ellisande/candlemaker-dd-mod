@@ -14,7 +14,6 @@ const hydratedSkills = skills.map(hydrateSkill);
 
 const darkness = effects.find(i => i.name === "'Darkness 3'");
 const light = effects.find(i => i.name === "'Light 3'");
-console.log("My things", darkness, light);
 
 const RawCollapse = ({ collapse, toggleCollapse, title, children }) => {
   return (
