@@ -6,7 +6,7 @@ const base = {
   curio_result_type: "'positive'",
   chance: "100%",
   duration: "4",
-  buff_ids: ["'WILD_DAMAGE_DONE_BUFF_1'", "'WILD_MIN_DAMAGE_DONE_DEBUFF_1'"],
+  buff_ids: ["'WILD_DAMAGE_DONE_BUFF_0'", "'WILD_MIN_DAMAGE_DONE_DEBUFF_0'"],
   on_hit: "true",
   on_miss: "true",
   apply_once: "false"
