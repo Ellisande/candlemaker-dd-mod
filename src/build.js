@@ -3,11 +3,7 @@ const fs = require("fs");
 const skills = require("./skills");
 const effects = require("./effects.json");
 
-const enabled = ["'strike_match'", "'embers'"];
-
-const enabledSkills = skills.filter(skill => enabled.includes(skill.id));
-
-const skillsAsStrings = enabledSkills
+const skillsAsStrings = skills
   .map(convert.fromObject)
   .map(i => "combat_skill: " + i)
   .join("\n");
