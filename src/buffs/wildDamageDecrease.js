@@ -4,7 +4,7 @@ const base = {
   stat_type: "combat_stat_multiply",
   stat_sub_type: "damage_low",
   amount: -0.25,
-  duration: 4,
+  duration: 3,
   remove_if_not_active: false,
   rule_type: "lightbelow",
   is_false_rule: false,
