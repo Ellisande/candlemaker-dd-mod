@@ -15,7 +15,7 @@ const base = {
   target: "@1234",
   is_crit_valid: "True",
   effect: [
-    "'CM Torch Increase Major 0",
+    "'CM Blazing Torch 0",
     "'CM Group Healdot 0",
     "'CM Wild 0'",
     "'CM Wild 0'"
