@@ -1,4 +1,4 @@
-import buffs from "./buffs.json";
+import buffs from "./buffs";
 import effects from "./effects";
 
 const hydrateBuff = buffId => {
