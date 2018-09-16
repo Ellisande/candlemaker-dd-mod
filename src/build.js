@@ -1,7 +1,7 @@
 const convert = require("./convert");
 const fs = require("fs");
 const skills = require("./skills");
-const effects = require("./effects.json");
+const effects = require("./effects");
 
 const skillsAsStrings = skills
   .map(convert.fromObject)

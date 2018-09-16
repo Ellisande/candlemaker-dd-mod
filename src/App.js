@@ -5,7 +5,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import JsonPretty from "react-json-pretty";
 import buffs from "./buffs.json";
-import effects from "./effects.json";
+import effects from "./effects";
 import skills from "./skills";
 import hydrateSkill from "./stitch";
 import store from "./stores";

@@ -1,5 +1,5 @@
 import buffs from "./buffs.json";
-import effects from "./effects.json";
+import effects from "./effects";
 
 const hydrateBuff = buffId => {
   const cleanId = buffId.replace(/'/g, "");
