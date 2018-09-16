@@ -32,6 +32,6 @@ const allLevels = generateLevels(level => ({
   generation_guaranteed: level === 0 ? "true" : "false"
 }));
 
-console.log(allLevels);
+// console.log(allLevels);
 
 module.exports = allLevels;

@@ -40,6 +40,6 @@ const allLevels = generateLevels(level => ({
   effect: effectsScale(base.effect, level)
 }));
 
-console.log(allLevels);
+// console.log(allLevels);
 
 module.exports = allLevels;
