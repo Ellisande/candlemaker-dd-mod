@@ -8,8 +8,9 @@ const base = {
   target: "@123",
   is_crit_valid: "False",
   effect: [
-    "'Clearguard'",
     "'CM Snuff Torch 0'",
+    "'Clearguard'",
+    "'Clearmark'",
     "'Stealth'",
     "'CM Damage Done Decrease 0",
     "'CM Poised 0'",
