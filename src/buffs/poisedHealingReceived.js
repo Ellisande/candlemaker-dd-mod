@@ -4,7 +4,7 @@ const base = {
   id: "POISED_HEALING_TAKEN_BUFF_0",
   stat_type: "hp_heal_received_percent",
   stat_sub_type: "",
-  amount: 0.15,
+  amount: 0.25,
   duration: 3,
   remove_if_not_active: false,
   rule_type: "lightabove",
@@ -16,8 +16,9 @@ const base = {
 };
 
 const amountScale = (base, level) => {
-  const offset = level * 0.05;
-  return base + offset;
+  return base;
+  // const offset = level * 0.05;
+  // return base + offset;
 };
 
 const allLevels = generateLevels(level => ({

@@ -8,7 +8,8 @@ const base = {
   buff_ids: "'POISED_HEALING_TAKEN_BUFF_0'",
   on_hit: "true",
   on_miss: "true",
-  apply_once: "false"
+  apply_once: "false",
+  queue: "false"
 };
 
 const allLevels = scaleJustNames(base);
