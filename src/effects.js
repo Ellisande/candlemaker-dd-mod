@@ -9,6 +9,7 @@ const stealth = require("./effects/stealth");
 const torchDecreaseMinor = require("./effects/torchDecreaseMinor");
 const torchIncreaseMinor = require("./effects/torchIncreaseMinor");
 const wild = require("./effects/wild");
+const clearmark = require("./effects/clearmark");
 
 const preDefinedEffects = [
   {
