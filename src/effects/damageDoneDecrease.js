@@ -15,7 +15,7 @@ const base = {
 
 const allLevels = generateLevels(level => ({
   ...base,
-  name: nameScale(base, leve)
+  name: nameScale(base.name, level)
 }));
 
 // console.log(allLevels);
