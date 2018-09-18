@@ -9,7 +9,8 @@ const base = {
   buff_ids: "'DISABLE_HEALING_DEBUFF'",
   on_hit: "true",
   on_miss: "false",
-  apply_once: "true"
+  apply_once: "true",
+  queue: "true"
 };
 
 module.exports = [base];
