@@ -6,7 +6,8 @@ const base = {
   curio_result_type: "'negative'",
   chance: "100%",
   duration: "2",
-  buff_ids: "'DAMAGE_DONE_DECREASE'",
+  damage_low_multiply: -0.3,
+  damage_high_multiply: -0.3,
   on_hit: "true",
   on_miss: "true",
   apply_once: "false"
