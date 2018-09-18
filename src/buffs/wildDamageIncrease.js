@@ -1,5 +1,4 @@
 const { generateLevels, nameScale } = require("../effects/effectUtils");
-const { amountScale } = require("./buffUtils");
 const base = {
   id: "WILD_DAMAGE_DONE_BUFF_0",
   stat_type: "combat_stat_multiply",
@@ -17,8 +16,7 @@ const base = {
 
 const allLevels = generateLevels(level => ({
   ...base,
-  id: nameScale(base.id, level),
-  amount: amountScale(base.amount, level)
+  id: nameScale(base.id, level)
 }));
 
 // console.log(allLevels);
