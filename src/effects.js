@@ -10,6 +10,7 @@ const torchDecreaseMinor = require("./effects/torchDecreaseMinor");
 const torchIncreaseMinor = require("./effects/torchIncreaseMinor");
 const wild = require("./effects/wild");
 const clearmark = require("./effects/clearmark");
+const disableHealing = require("./effects/disableHealing");
 
 const preDefinedEffects = [
   {
@@ -59,5 +60,7 @@ module.exports = [
   ...stealth,
   ...torchDecreaseMinor,
   ...torchIncreaseMinor,
-  ...wild
+  ...wild,
+  ...clearmark,
+  ...disableHealing
 ];
