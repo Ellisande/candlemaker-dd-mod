@@ -10,7 +10,6 @@ const base = {
   heal: `${baseHeal.low} ${baseHeal.high}`,
   crit: "5%",
   self_target_valid: "true",
-  per_battle_limit: 1,
   launch: "432",
   target: "@1234",
   is_crit_valid: "True",
@@ -18,7 +17,8 @@ const base = {
     "'CM Blazing Torch 0'",
     "'CM Group Healdot 0'",
     "'CM Wild 0'",
-    "'CM Wild 0'"
+    "'CM Wild 0'",
+    "Disable Healing Abilities"
   ],
   is_stall_invalidating: "true"
 };
