@@ -5,11 +5,11 @@ const base = {
   target: "'global'",
   chance: "100%",
   curio_result_type: "'negative'",
-  torch_decrease: "5",
+  torch_decrease: "25",
   on_hit: "true",
   on_miss: "false",
   apply_once: "true",
-  queue: "true"
+  queue: "false"
 };
 
 const torchLevels = {

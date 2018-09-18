@@ -4,12 +4,12 @@ const base = {
   name: "'CM Torch Increase Minor 0'",
   target: "'global'",
   chance: "100%",
-  curio_result_type: "'negative'",
-  torch_increase: "5",
+  curio_result_type: "'positive'",
+  torch_increase: "25",
   on_hit: "true",
   on_miss: "false",
   apply_once: "true",
-  queue: "true"
+  queue: "false"
 };
 
 const torchLevels = {
