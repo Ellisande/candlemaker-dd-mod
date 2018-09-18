@@ -9,7 +9,7 @@ const base = {
   on_hit: "true",
   on_miss: "true",
   apply_once: "false",
-  queue: "false"
+  queue: "true"
 };
 
 const allLevels = scaleJustNames(base);
