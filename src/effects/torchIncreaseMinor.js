@@ -13,11 +13,11 @@ const base = {
 };
 
 const torchLevels = {
-  0: 5,
-  1: 7,
-  2: 8,
-  3: 10,
-  4: 13
+  0: 25,
+  1: 25,
+  2: 25,
+  3: 25,
+  4: 25
 };
 
 const allLevels = generateLevels(level => ({
