@@ -4,7 +4,25 @@ const skills = require("./skills");
 const effects = require("./effects");
 const buffs = require("./buffs");
 
+const idMap = {
+  "'blazing_star'": "'wyrd_reconstruction'",
+  "'embers'": "'bloodlet'",
+  "'snuff'": "'daemons_pull'",
+  "'strike_match'": "'hands_from_abyss'"
+};
+
+const remapIds = skill => {
+  if (!idMap[skill.id]) {
+    return skill;
+  }
+  return {
+    ...skill,
+    id: idMap[skill.id]
+  };
+};
+
 const skillsAsStrings = skills
+  .map(remapIds)
   .map(convert.fromObject)
   .map(i => "combat_skill: " + i)
   .join("\n");
