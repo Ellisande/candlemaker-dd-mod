@@ -14,15 +14,9 @@ const base = {
   }
 };
 
-const amountScale = (base, level) => {
-  const offset = level * 0.05;
-  return base + offset;
-};
-
 const allLevels = generateLevels(level => ({
   ...base,
-  id: nameScale(base.id, level),
-  amount: amountScale(base.amount, level)
+  id: nameScale(base.id, level)
 }));
 
 // console.log(allLevels);
