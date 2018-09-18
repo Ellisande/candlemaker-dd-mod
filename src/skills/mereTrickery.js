@@ -22,14 +22,13 @@ const base = {
     "'Stress Done Debuff'",
     "'CM Wild 0'"
   ],
-  is_stall_invalidating: "true"
+  is_stall_invalidating: "false"
 };
 
 const allLevels = generateLevels(level => ({
   ...base,
   level,
   atk: atkScale(base.atk, level),
-  crit: critScale(base.crit, level),
   effect: effectsScale(base.effect, level)
 }));
 
