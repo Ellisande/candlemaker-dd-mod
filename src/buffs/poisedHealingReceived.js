@@ -15,6 +15,7 @@ const base = {
   }
 };
 
+// Might want to try scaling again later
 const amountScale = (base, level) => {
   return base;
   // const offset = level * 0.05;
@@ -23,8 +24,7 @@ const amountScale = (base, level) => {
 
 const allLevels = generateLevels(level => ({
   ...base,
-  id: nameScale(base.id, level),
-  amount: amountScale(base.amount, level)
+  id: nameScale(base.id, level)
 }));
 
 // console.log(allLevels);
