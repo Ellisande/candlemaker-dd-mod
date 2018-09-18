@@ -5,7 +5,7 @@ const base = {
   target: "'performer'",
   curio_result_type: "'negative'",
   chance: "100%",
-  duration: "2",
+  duration: "1",
   buff_ids: "'DISABLE_HEALING_DEBUFF'",
   on_hit: "true",
   on_miss: "false",
