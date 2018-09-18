@@ -1,4 +1,4 @@
-const { scaleJustNames } = require("./effectUtils");
+const { nameScale, generateLevels } = require("./effectUtils");
 
 const base = {
   name: "'CM Damage Done Decrease 0'",
@@ -13,7 +13,10 @@ const base = {
   apply_once: "false"
 };
 
-const allLevels = scaleJustNames(base);
+const allLevels = generateLevels(level => ({
+  ...base,
+  name: nameScale(base, leve)
+}));
 
 // console.log(allLevels);
 
