@@ -24,7 +24,7 @@ const base = {
 };
 
 const scaleHeal = level => {
-  const offset = Math.floor(level / 2);
+  const offset = level;
   const scaled = {
     low: baseHeal.low + offset,
     high: baseHeal.high + offset
