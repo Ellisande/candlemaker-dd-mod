@@ -4,7 +4,6 @@ const wildDamageDecrease = require("./buffs/wildDamageDecrease");
 const wildDamageIncrease = require("./buffs/wildDamageIncrease");
 
 module.exports = [
-  ...damageDoneDebuff,
   ...damageTakenDebuff,
   ...poisedHealingReceived,
   ...wildDamageDecrease,
