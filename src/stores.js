@@ -20,7 +20,7 @@ const buffReducer = (state, action) => {
       ...state.buffs,
       ...action.buffs.map(buff => ({
         ...buff,
-        duration: STANDARD_DURATION,
+        duration: buff.duration,
         id: `${buff.id} - ${buffCount++}`
       }))
     ];
