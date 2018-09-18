@@ -1,7 +1,7 @@
 const { generateLevels, nameScale } = require("./effectUtils");
 
 const healBase = {
-  low: 1,
+  low: 2,
   high: 2
 };
 const base = {
