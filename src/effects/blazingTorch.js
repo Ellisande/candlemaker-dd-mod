@@ -9,7 +9,7 @@ const base = {
   on_hit: "true",
   on_miss: "false",
   apply_once: "true",
-  queue: "true"
+  queue: "false"
 };
 
 const torchLevels = {
