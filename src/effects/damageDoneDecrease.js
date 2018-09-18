@@ -5,7 +5,7 @@ const base = {
   target: "'target'",
   curio_result_type: "'negative'",
   chance: "100%",
-  duration: "1",
+  duration: "2",
   buff_ids: "'DAMAGE_DONE_DECREASE'",
   on_hit: "true",
   on_miss: "true",

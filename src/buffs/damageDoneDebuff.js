@@ -4,8 +4,8 @@ const base = {
   stat_sub_type: "damage_high",
   amount: -0.2,
   duration: 2,
-  remove_if_not_active: false,
-  rule_type: "always",
+  remove_if_not_active: true,
+  rule_type: "is_stealthed",
   is_false_rule: false
 };
 
