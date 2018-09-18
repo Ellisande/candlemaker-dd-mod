@@ -1,6 +1,6 @@
 const base = {
   name: "'Clearmark'",
-  target: "'global'",
+  target: "'target'",
   chance: "100%",
   curio_result_type: "'neutral'",
   on_hit: "true",
