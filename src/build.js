@@ -8,7 +8,8 @@ const idMap = {
   "'blazing_star'": "'wyrd_reconstruction'",
   "'embers'": "'bloodlet'",
   "'snuff'": "'daemons_pull'",
-  "'strike_match'": "'hands_from_abyss'"
+  "'strike_match'": "'hands_from_abyss'",
+  "'mere_trickery'": "'weakening_curse'"
 };
 
 const remapIds = skill => {
