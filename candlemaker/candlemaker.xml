@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<ItemDescriptionShort>Adds the Candlemaker hero</ItemDescriptionShort>
+	<ModDataPath>C:\Users\Ellisande\dev\source\candlemaker-sim\candlemaker</ModDataPath>
+	<Title>Candlemaker Hero</Title>
+	<Language>english</Language>
+	<UpdateDetails>When you update your mod, this is where you would describe your latest changes</UpdateDetails>
+	<Visibility>private</Visibility>
+	<UploadMode>direct_upload</UploadMode>
+	<VersionMajor>0</VersionMajor>
+	<VersionMinor>1</VersionMinor>
+	<TargetBuild>24357</TargetBuild>
+	<Tags>
+		<Tags>hero</Tags>
+		<Tags>candlemaker</Tags>
+		<Tags>torch dancing</Tags>
+	</Tags>
+	<ItemDescription>The Candlemaker plays with light the way others do with movement. He rewards a cyclic play style with big moments of power.</ItemDescription>
+</project>
+
