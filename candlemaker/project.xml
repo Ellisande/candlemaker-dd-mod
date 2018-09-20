@@ -5,7 +5,7 @@
 	<ModDataPath>C:/Users/Ellisande/dev/source/candlemaker-sim/candlemaker/</ModDataPath>
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
-	<UpdateDetails/>
+	<UpdateDetails>When you update your mod, this is where you would describe your latest changes</UpdateDetails>
 	<Visibility>private</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>0</VersionMajor>

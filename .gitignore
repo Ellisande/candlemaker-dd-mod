@@ -19,3 +19,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+steam_workshop_uploader.log
+modfiles.txt
