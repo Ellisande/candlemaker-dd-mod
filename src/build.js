@@ -33,6 +33,21 @@ const effectsAsStrings = effects
   .map(i => "effect: " + i)
   .join("\n");
 
-fs.writeFileSync("./build/skills.info.darkest", skillsAsStrings);
-fs.writeFileSync("./build/effects.info.darkest", effectsAsStrings);
-fs.writeFileSync("./build/buffs.json", JSON.stringify(buffs, null, 2));
+fs.writeFileSync("./build/candlemaker.skills.info.darkest", skillsAsStrings);
+fs.writeFileSync("./build/candlemaker.effects.info.darkest", effectsAsStrings);
+fs.writeFileSync(
+  "./build/candlemaker.buffs.json",
+  JSON.stringify(buffs, null, 2)
+);
+
+fs.copyFileSync(
+  `${process.cwd()}/game_base/base.effects.darkest`,
+  `${process.cwd()}/build/base.effects.darkest`
+);
+
+const baseBuffs = require("../game_base/base.buffs.json");
+const allBuffs = {
+  buffs: [...baseBuffs.buffs, buffs]
+};
+
+fs.writeFileSync("./build/base.buffs.json", JSON.stringify(allBuffs, null, 2));
