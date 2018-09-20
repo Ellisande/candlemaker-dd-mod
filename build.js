@@ -49,7 +49,7 @@ fs.copyFileSync(
 fs.appendFileSync("./build/base.effects.darkest", effectsAsStrings);
 
 const allBuffs = {
-  buffs: [...baseBuffs.buffs, buffs]
+  buffs: [...baseBuffs.buffs, ...buffs]
 };
 
 fs.writeFileSync("./build/base.buffs.json", JSON.stringify(allBuffs, null, 2));
