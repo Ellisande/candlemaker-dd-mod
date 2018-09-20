@@ -1,8 +1,9 @@
-const convert = require("./convert");
+const convert = require("./src/convert");
 const fs = require("fs");
-const skills = require("./skills");
-const effects = require("./effects");
-const buffs = require("./buffs");
+const skills = require("./src/skills");
+const effects = require("./src/effects");
+const buffs = require("./src/buffs");
+const baseBuffs = require("./game_base/base.buffs.json");
 
 const idMap = {
   "'blazing_star'": "'wyrd_reconstruction'",
@@ -45,7 +46,8 @@ fs.copyFileSync(
   `${process.cwd()}/build/base.effects.darkest`
 );
 
-const baseBuffs = require("../game_base/base.buffs.json");
+fs.appendFileSync("./build/base.effects.darkest", effectsAsStrings);
+
 const allBuffs = {
   buffs: [...baseBuffs.buffs, buffs]
 };
