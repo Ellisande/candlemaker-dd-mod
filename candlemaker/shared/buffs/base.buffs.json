@@ -26659,25 +26659,31 @@
     },
     {
       "id": "DISABLE_HEALING_DEBUFF",
-      "duration": 1,
+      "stat_type": "disable_combat_skill_attribute",
+      "stat_sub_type": "heal",
+      "amount": 1,
+      "duration": 2,
       "remove_if_not_active": true,
-      "rule_type": "lightabove",
       "is_false_rule": false,
-      "disable_combat_skill_attribute": "heal",
+      "rule_type": "lightabove",
       "rule_data": {
         "float": 50,
         "string": ""
       }
     },
     {
-      "id": "STRESS_DONE_DEBUFF",
-      "stat_type": "stress_dmg_precent",
-      "stat_sub_type": "",
-      "amount": -0.5,
+      "id": "STRESS_DISABLE_DEBUFF",
+      "stat_type": "disable_combat_skill_attribute",
+      "stat_sub_type": "stress",
+      "amount": 1,
       "duration": 2,
       "remove_if_not_active": false,
       "is_false_rule": false,
-      "rule_type": "always"
+      "rule_type": "lightabove",
+      "rule_data": {
+        "float": 50,
+        "string": ""
+      }
     }
   ]
 }

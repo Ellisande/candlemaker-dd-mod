@@ -2238,4 +2238,4 @@ effect: .name "CM Wild 3" .target "performer_group" .curio_result_type "positive
 effect: .name "CM Wild 4" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 2 .buff_ids "WILD_DAMAGE_DONE_BUFF_4" "WILD_MIN_DAMAGE_DONE_DEBUFF_4" .on_hit true .on_miss true .apply_once false
 effect: .name "Clearmark" .target "target" .chance 100% .curio_result_type "neutral" .on_hit true .on_miss true .apply_once true .queue true .untag 1
 effect: .name "Disable Healing Abilities" .target "performer" .curio_result_type "negative" .chance 100% .duration 1 .buff_ids "DISABLE_HEALING_DEBUFF" .on_hit true .on_miss false .apply_once true .queue true
-effect: .name "Stress Done Debuff" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .on_hit true .on_miss true .apply_once false .buff_ids "STRESS_DONE_DEBUFF"
+effect: .name "Stress Disable Debuff" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .on_hit true .on_miss true .apply_once false .buff_ids "STRESS_DISABLE_DEBUFF"
