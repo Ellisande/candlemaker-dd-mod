@@ -1,0 +1,84 @@
+[
+  { "id": "hero_class_name_candlemaker", "data": "Candlemaker" },
+  {
+    "id": "combat_skill_name_candlemaker_bloodlet",
+    "data": "Embers"
+  },
+  {
+    "id": "combat_skill_name_candlemaker_abyssal_artillery",
+    "data": "Abyssal Artillery"
+  },
+  {
+    "id": "combat_skill_name_candlemaker_mere_trickery",
+    "data": "Mere Trickery"
+  },
+  {
+    "id": "combat_skill_name_candlemaker_blazing_star",
+    "data": "Blazing Star"
+  },
+  {
+    "id": "combat_skill_name_candlemaker_disruptive_curse",
+    "data": "Vulnerability Hex"
+  },
+  {
+    "id": "combat_skill_name_candlemaker_strike_match",
+    "data": "Strike Match"
+  },
+  {
+    "id": "combat_skill_name_candlemaker_snuff",
+    "data": "Snuff"
+  },
+  { "id": "combat_skill_name_candlemaker_move", "data": "Move" },
+  {
+    "id": "upgrade_tree_name_candlemaker.bloodlet",
+    "data": "Embers"
+  },
+  {
+    "id": "upgrade_tree_name_candlemaker.abyssal_artillery",
+    "data": "Abyssal Artillery"
+  },
+  {
+    "id": "upgrade_tree_name_candlemaker.mere_trickery",
+    "data": "Mere Trickery"
+  },
+  {
+    "id": "upgrade_tree_name_candlemaker.blazing_star",
+    "data": "Blazing Star"
+  },
+  {
+    "id": "upgrade_tree_name_candlemaker.disruptive_curse",
+    "data": "Vulnerability Hex"
+  },
+  {
+    "id": "upgrade_tree_name_candlemaker.strike_match",
+    "data": "Strike Match"
+  },
+  {
+    "id": "upgrade_tree_name_candlemaker.snuff",
+    "data": "Snuff"
+  },
+  { "id": "occultist_weapon_0", "data": "Battered Skull" },
+  { "id": "occultist_weapon_1", "data": "Bleached Skull" },
+  { "id": "occultist_weapon_2", "data": "Fine Skull" },
+  { "id": "occultist_weapon_3", "data": "Scholar's Skull" },
+  { "id": "occultist_weapon_4", "data": "\"The Mentor's Skull\"" },
+  { "id": "upgrade_tree_name_occultist.weapon", "data": "Skull" },
+  { "id": "occultist_armour_0", "data": "Tattered Robes" },
+  { "id": "occultist_armour_1", "data": "Scholar's Robes" },
+  { "id": "occultist_armour_2", "data": "Academic's Robes" },
+  { "id": "occultist_armour_3", "data": "Antiquarian's Robes" },
+  { "id": "occultist_armour_4", "data": "\"Dark Inquisition\"" },
+  { "id": "upgrade_tree_name_occultist.armour", "data": "Robes" },
+  {
+    "id": "action_verbose_body_guild_candlemaker",
+    "data": "A lifetime of scholarly inquest into ancient and forbidden lore has opened the Candlemaker's mind to the powers of the void. Debilitating curses and maddeningly impossible support skills are his specialty. The void, however, is an unpredictable power, and consequently skills' effectiveness can vary dramatically, and usually come at a cost of light, or stress."
+  },
+  {
+    "id": "action_verbose_body_blacksmith_candlemaker",
+    "data": "Scholarly robes, better suited to the library than the harsh realities of adventuring, are all the Candlemaker has brought with him. His rituals and chants require deft movements of hand and finger, so better he be unencumbered that he may channel the power of his morbid fetish: the polished skull of a dead man."
+  },
+  {
+    "id": "action_verbose_body_camping_trainer_candlemaker",
+    "data": "At rest, the Candlemaker will attempt communion with the dark and impossible forces of the void in an effort to strengthen himself and the party. Such efforts are frequently taxing, however, exacting a toll in darkness and stress."
+  }
+]
