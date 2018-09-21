@@ -10,4 +10,9 @@ fs.copyFileSync(
   "./candlemaker/shared/buffs/base.buffs.json"
 );
 
+fs.copyFileSync(
+  "./build/candlemaker.string_table.xml",
+  "./candlemaker/localization/candlemaker.string_table.xml"
+);
+
 // Need to copy over the class, but we don't have the build for it yet.
