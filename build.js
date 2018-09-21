@@ -4,6 +4,7 @@ const skills = require("./src/skills");
 const effects = require("./src/effects");
 const buffs = require("./src/buffs");
 const baseBuffs = require("./game_base/base.buffs.json");
+const l10nEntries = require("./src/l10n/candlemaker.json");
 
 const idMap = {
   "'blazing_star'": "'wyrd_reconstruction'",
@@ -53,3 +54,17 @@ const allBuffs = {
 };
 
 fs.writeFileSync("./build/base.buffs.json", JSON.stringify(allBuffs, null, 2));
+
+const mapL10nEntry = entry =>
+  `<entry id="${entry.id}"><![CDATA[${entry.data}]]></entry>`;
+
+const l10nTemplate = `
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+    ${l10nEntries.map(mapL10nEntry).join("\n")}
+  <language/>
+</root>
+`;
+
+fs.writeFileSync("./build/candlemaker.string_table.xml", l10nTemplate);
