@@ -11,7 +11,7 @@ const torchIncreaseMinor = require("./effects/torchIncreaseMinor");
 const wild = require("./effects/wild");
 const clearmark = require("./effects/clearmark");
 const disableHealing = require("./effects/disableHealing");
-const stressDoneDebuff = require("./effects/stressDoneDebuff");
+const stressDoneDebuff = require("./effects/stressDisableDebuff");
 
 const preDefinedEffects = [
   {
