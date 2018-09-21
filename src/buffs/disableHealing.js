@@ -2,11 +2,13 @@ const { generateLevels, nameScale } = require("../effects/effectUtils");
 
 const base = {
   id: "DISABLE_HEALING_DEBUFF",
-  duration: 1,
+  stat_type: "disable_combat_skill_attribute",
+  stat_sub_type: "heal",
+  amount: 1.0,
+  duration: 2,
   remove_if_not_active: true,
-  rule_type: "lightabove",
   is_false_rule: false,
-  disable_combat_skill_attribute: "heal",
+  rule_type: "lightabove",
   rule_data: {
     float: 50,
     string: ""
