@@ -1,5 +1,5 @@
 const base = {
-  name: "'Stress Done Debuff'",
+  name: "'Stress Disable Debuff'",
   target: "'target'",
   curio_result_type: "'negative'",
   chance: "100%",
@@ -7,7 +7,7 @@ const base = {
   on_hit: "true",
   on_miss: "true",
   apply_once: "false",
-  buff_ids: "'STRESS_DONE_DEBUFF'"
+  buff_ids: "'STRESS_DISABLE_DEBUFF'"
 };
 
 module.exports = [base];

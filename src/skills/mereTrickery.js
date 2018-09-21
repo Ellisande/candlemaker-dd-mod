@@ -1,9 +1,4 @@
-const {
-  critScale,
-  effectsScale,
-  generateLevels,
-  atkScale
-} = require("./skillUtils");
+const { effectsScale, generateLevels, atkScale } = require("./skillUtils");
 
 const base = {
   id: "'mere_trickery'",
@@ -19,7 +14,7 @@ const base = {
   effect: [
     "'CM Torch Increase Minor 0'",
     "'Destealth'",
-    "'Stress Done Debuff'",
+    "'Stress Disable Debuff'",
     "'CM Wild 0'"
   ],
   is_stall_invalidating: "false"
