@@ -57,18 +57,6 @@
     "id": "upgrade_tree_name_candlemaker.snuff",
     "data": "Snuff"
   },
-  { "id": "occultist_weapon_0", "data": "Battered Skull" },
-  { "id": "occultist_weapon_1", "data": "Bleached Skull" },
-  { "id": "occultist_weapon_2", "data": "Fine Skull" },
-  { "id": "occultist_weapon_3", "data": "Scholar's Skull" },
-  { "id": "occultist_weapon_4", "data": "\"The Mentor's Skull\"" },
-  { "id": "upgrade_tree_name_occultist.weapon", "data": "Skull" },
-  { "id": "occultist_armour_0", "data": "Tattered Robes" },
-  { "id": "occultist_armour_1", "data": "Scholar's Robes" },
-  { "id": "occultist_armour_2", "data": "Academic's Robes" },
-  { "id": "occultist_armour_3", "data": "Antiquarian's Robes" },
-  { "id": "occultist_armour_4", "data": "\"Dark Inquisition\"" },
-  { "id": "upgrade_tree_name_occultist.armour", "data": "Robes" },
   {
     "id": "action_verbose_body_guild_candlemaker",
     "data": "A lifetime of scholarly inquest into ancient and forbidden lore has opened the Candlemaker's mind to the powers of the void. Debilitating curses and maddeningly impossible support skills are his specialty. The void, however, is an unpredictable power, and consequently skills' effectiveness can vary dramatically, and usually come at a cost of light, or stress."
