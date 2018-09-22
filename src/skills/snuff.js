@@ -11,7 +11,7 @@ const base = {
     "'CM Snuff Torch 0'",
     "'Clearmark'",
     "'Stealth'",
-    "'CM Damage Done Decrease 0",
+    "'CM Dodge 0'",
     "'CM Poised 0'",
     "'CM Poised 0'"
   ],
