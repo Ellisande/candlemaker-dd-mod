@@ -10,7 +10,7 @@ const base = {
   level: "0",
   type: "'ranged'",
   atk: "90%",
-  dmg: "-60%",
+  dmg: "-50%",
   crit: "3%",
   launch: "23",
   target: "123",
