@@ -13,7 +13,7 @@ const base = {
   dmg: "-50%",
   crit: "3%",
   launch: "23",
-  target: "123",
+  target: "1234",
   is_crit_valid: "True",
   extra_targets_count: 3,
   extra_targets_chance: 0.5,
