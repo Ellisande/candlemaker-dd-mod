@@ -18,7 +18,7 @@ const base = {
     "'CM Group Healdot 0'",
     "'CM Wild 0'",
     "'CM Wild 0'",
-    "Disable Healing Abilities"
+    "'Disable Healing Abilities'"
   ],
   is_stall_invalidating: "true"
 };
