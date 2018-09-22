@@ -25,7 +25,7 @@ const remapIds = skill => {
 };
 
 const skillsAsStrings = skills
-  .map(remapIds)
+  // .map(remapIds)
   .map(convert.fromObject)
   .map(i => "combat_skill: " + i)
   .join("\n");
