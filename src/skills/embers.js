@@ -13,8 +13,10 @@ const base = {
   dmg: "-60%",
   crit: "3%",
   launch: "23",
-  target: "~23",
+  target: "123",
   is_crit_valid: "True",
+  extra_targets_count: 3,
+  extra_targets_chance: 0.5,
   effect: [
     "'CM Torch Decrease Minor 0'",
     "'CM Damge Taken Debuff 0'",
@@ -29,7 +31,8 @@ const allLevels = generateLevels(level => ({
   atk: atkScale(base.atk, level),
   crit: critScale(base.crit, level),
   effect: effectsScale(base.effect, level),
-  generation_guaranteed: level === 0 ? "true" : "false"
+  generation_guaranteed: level === 0 ? "true" : "false",
+  extra_targets_chance: base.extra_targets_chance + level * 0.05
 }));
 
 // console.log(allLevels);
