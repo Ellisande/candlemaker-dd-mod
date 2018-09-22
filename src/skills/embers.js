@@ -9,7 +9,7 @@ const base = {
   id: "'embers'",
   level: "0",
   type: "'ranged'",
-  atk: "95%",
+  atk: "90%",
   dmg: "-60%",
   crit: "3%",
   launch: "23",
