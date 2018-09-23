@@ -8,12 +8,11 @@ const base = {
   dmg: "-100%",
   crit: "0%",
   launch: "43",
-  target: "1234",
+  target: "~34",
   is_crit_valid: "False",
   ignore_stealth: "true",
   effect: [
     "'CM Torch Increase Minor 0'",
-    "'Destealth'",
     "'Stress Disable Debuff'",
     "'CM Wild 0'"
   ],
