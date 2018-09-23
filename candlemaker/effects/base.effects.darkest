@@ -2243,11 +2243,11 @@ effect: .name "CM Mere Trickery Buff 1" .target "target" .curio_result_type "pos
 effect: .name "CM Mere Trickery Buff 2" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .on_hit true .on_miss true .apply_once true .buff_ids "CM_HORROR_REDUCTION_BUFF_2" "CM_ACC_BUFF_2" "CM_VIRTUE_BUFF_2"
 effect: .name "CM Mere Trickery Buff 3" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .on_hit true .on_miss true .apply_once true .buff_ids "CM_HORROR_REDUCTION_BUFF_3" "CM_ACC_BUFF_3" "CM_VIRTUE_BUFF_3"
 effect: .name "CM Mere Trickery Buff 4" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .on_hit true .on_miss true .apply_once true .buff_ids "CM_HORROR_REDUCTION_BUFF_4" "CM_ACC_BUFF_4" "CM_VIRTUE_BUFF_4"
-effect: .name "CM Boogeymen 0" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_ids "BOOGEYMEN_MIN_DAMAGE_DONE_DEBUFF_0" .on_hit true .on_miss true .apply_once true
-effect: .name "CM Boogeymen 1" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_ids "BOOGEYMEN_MIN_DAMAGE_DONE_DEBUFF_1" .on_hit true .on_miss true .apply_once true
-effect: .name "CM Boogeymen 2" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_ids "BOOGEYMEN_MIN_DAMAGE_DONE_DEBUFF_2" .on_hit true .on_miss true .apply_once true
-effect: .name "CM Boogeymen 3" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_ids "BOOGEYMEN_MIN_DAMAGE_DONE_DEBUFF_3" .on_hit true .on_miss true .apply_once true
-effect: .name "CM Boogeymen 4" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_ids "BOOGEYMEN_MIN_DAMAGE_DONE_DEBUFF_4" .on_hit true .on_miss true .apply_once true
+effect: .name "CM Boogeymen 0" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_ids "BOOGEYMEN_DAMAGE_DONE_BUFF_0" .on_hit true .on_miss true .apply_once true
+effect: .name "CM Boogeymen 1" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_ids "BOOGEYMEN_DAMAGE_DONE_BUFF_1" .on_hit true .on_miss true .apply_once true
+effect: .name "CM Boogeymen 2" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_ids "BOOGEYMEN_DAMAGE_DONE_BUFF_2" .on_hit true .on_miss true .apply_once true
+effect: .name "CM Boogeymen 3" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_ids "BOOGEYMEN_DAMAGE_DONE_BUFF_3" .on_hit true .on_miss true .apply_once true
+effect: .name "CM Boogeymen 4" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_ids "BOOGEYMEN_DAMAGE_DONE_BUFF_4" .on_hit true .on_miss true .apply_once true
 effect: .name "CM Boogeymen Target Stress" .target "target" .curio_result_type "negative" .chance 100% .dotStress 2 .duration 3 .on_hit true .on_miss true
 effect: .name "CM Dodge 0" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add 3% .on_hit true .on_miss true .queue true
 effect: .name "CM Dodge 1" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add 5% .on_hit true .on_miss true .queue true
