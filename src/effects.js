@@ -12,6 +12,8 @@ const wild = require("./effects/wild");
 const clearmark = require("./effects/clearmark");
 const disableHealing = require("./effects/disableHealing");
 const stressDoneDebuff = require("./effects/stressDisableDebuff");
+const boogeymen = require("./effects/boogeymen");
+const causeStress = require("./effects/causeStress");
 
 const preDefinedEffects = [
   {
@@ -64,5 +66,7 @@ module.exports = [
   ...wild,
   ...clearmark,
   ...disableHealing,
-  ...stressDoneDebuff
+  ...stressDoneDebuff,
+  ...boogeymen,
+  ...causeStress
 ];

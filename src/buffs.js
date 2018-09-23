@@ -4,6 +4,8 @@ const wildDamageDecrease = require("./buffs/wildDamageDecrease");
 const wildDamageIncrease = require("./buffs/wildDamageIncrease");
 const disableHealingDebuff = require("./buffs/disableHealing");
 const stressDoneDebuff = require("./buffs/stressDisableDebuff");
+const boogeymenDamageDecrease = require("./buffs/boogeymenDamageDecrease");
+const boogeymenDamageIncrease = require("./buffs/boogeymenDamageIncrease");
 
 module.exports = [
   ...damageTakenDebuff,
@@ -11,5 +13,7 @@ module.exports = [
   ...wildDamageDecrease,
   ...wildDamageIncrease,
   ...disableHealingDebuff,
-  ...stressDoneDebuff
+  ...stressDoneDebuff,
+  ...boogeymenDamageDecrease,
+  ...boogeymenDamageIncrease
 ];
