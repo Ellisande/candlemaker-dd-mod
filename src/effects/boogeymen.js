@@ -6,7 +6,6 @@ const base = {
   curio_result_type: "'positive'",
   chance: "100%",
   duration: "1",
-  pull: 1,
   buff_ids: [
     "'BOOGEYMEN_DAMAGE_DONE_BUFF_0'",
     "'BOOGEYMEN_MIN_DAMAGE_DONE_DEBUFF_0'"
