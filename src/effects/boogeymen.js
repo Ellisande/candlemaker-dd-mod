@@ -7,7 +7,7 @@ const base = {
   chance: "100%",
   duration: "1",
   buff_ids: [
-    "'BOOGEYMEN_DAMAGE_DONE_BUFF_0'",
+    // "'BOOGEYMEN_DAMAGE_DONE_BUFF_0'",
     "'BOOGEYMEN_MIN_DAMAGE_DONE_DEBUFF_0'"
   ],
   on_hit: "true",
