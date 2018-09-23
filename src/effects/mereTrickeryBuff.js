@@ -1,3 +1,4 @@
+const { scaleJustNames } = require("./effectUtils");
 const base = {
   name: "'CM Mere Trickery Buff 0'",
   target: "'target'",
@@ -14,4 +15,4 @@ const base = {
   ]
 };
 
-module.exports = [base];
+module.exports = scaleJustNames(base);
