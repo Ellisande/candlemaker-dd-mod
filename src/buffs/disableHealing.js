@@ -8,11 +8,7 @@ const base = {
   duration: 2,
   remove_if_not_active: true,
   is_false_rule: false,
-  rule_type: "lightabove",
-  rule_data: {
-    float: 50,
-    string: ""
-  }
+  rule_type: "always"
 };
 
 module.exports = [base];
