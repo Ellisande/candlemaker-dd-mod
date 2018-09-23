@@ -1,4 +1,4 @@
-const { generateLevels } = require("./skillUtils");
+const { generateLevels, effectsScale } = require("./skillUtils");
 const base = {
   id: "'boogeymen'",
   level: "0",
@@ -17,3 +17,12 @@ const base = {
   ],
   is_stall_invalidating: "false"
 };
+
+const allLevels = generateLevels(level => ({
+  ...base,
+  effect: effectsScale(base.effect, level)
+}));
+
+// console.log(allLevels);
+
+module.exports = allLevels;
