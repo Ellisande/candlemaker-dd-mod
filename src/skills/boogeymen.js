@@ -10,7 +10,7 @@ const base = {
   target: "@1234",
   is_crit_valid: "True",
   effect: [
-    "'CM Torch Decrease Minor 0",
+    "'CM Torch Decrease Minor 0'",
     "'CM Boogeymen Target Stress'",
     "'CM Boogeymen 0'",
     "'CM Poised 0'"
@@ -20,6 +20,7 @@ const base = {
 
 const allLevels = generateLevels(level => ({
   ...base,
+  level,
   effect: effectsScale(base.effect, level)
 }));
 
