@@ -13,6 +13,14 @@ const base = {
   is_stall_invalidating: "false"
 };
 
+const healScale = {
+  0: `0 0`,
+  1: `0 1`,
+  2: `1 1`,
+  3: `0 0`,
+  4: `1 1`
+};
+
 const scaleHeal = level => {
   const increase = Math.floor(level / 2);
   return `${0 + increase} ${1 + increase}`;
@@ -21,7 +29,7 @@ const scaleHeal = level => {
 const allLevels = generateLevels(level => ({
   ...base,
   level,
-  heal: scaleHeal(level),
+  heal: healScale[level],
   effect: effectsScale(base.effect, level)
 }));
 
