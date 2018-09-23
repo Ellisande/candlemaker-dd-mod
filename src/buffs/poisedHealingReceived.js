@@ -10,7 +10,7 @@ const base = {
   rule_type: "lightabove",
   is_false_rule: false,
   rule_data: {
-    float: 50,
+    float: 49,
     string: ""
   }
 };

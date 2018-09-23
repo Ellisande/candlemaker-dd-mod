@@ -5,7 +5,7 @@ const base = {
   target: "'global'",
   chance: "100%",
   curio_result_type: "'negative'",
-  torch_decrease: "25",
+  torch_decrease: "24",
   on_hit: "true",
   on_miss: "false",
   apply_once: "true",
