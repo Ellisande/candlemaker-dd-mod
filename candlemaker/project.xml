@@ -5,7 +5,7 @@
 	<ModDataPath>C:/Users/Ellisande/dev/source/candlemaker-sim/candlemaker/</ModDataPath>
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
-	<UpdateDetails/>
+	<UpdateDetails>Blazing star disables healing for 2 turns. Trickery now disables stress abilities and hits the back to ranks. Replaced abyssal artillery with boogeymen</UpdateDetails>
 	<Visibility>private</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>0</VersionMajor>
