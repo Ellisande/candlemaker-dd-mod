@@ -15,8 +15,8 @@ const base = {
   launch: "23",
   target: "1234",
   is_crit_valid: "True",
-  extra_targets_count: 3,
-  extra_targets_chance: 0.5,
+  extra_targets_count: 2,
+  extra_targets_chance: 1,
   effect: [
     "'CM Torch Decrease Minor 0'",
     "'CM Damge Taken Debuff 0'",
