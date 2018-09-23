@@ -4,7 +4,7 @@ const base = {
   id: "CM_VIRTUE_BUFF_0",
   stat_type: "resolve_check_percent",
   stat_sub_type: "",
-  amount: 0.05,
+  amount: 0.03,
   duration: 3,
   remove_if_not_active: false,
   is_false_rule: false,
@@ -14,7 +14,7 @@ const base = {
 const allLevels = generateLevels(level => ({
   ...base,
   id: nameScale(base.id, level),
-  amount: base.amount + level * 0.025
+  amount: base.amount + level * 0.01
 }));
 
 // console.log(allLevels);

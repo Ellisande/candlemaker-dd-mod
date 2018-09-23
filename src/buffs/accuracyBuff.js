@@ -4,7 +4,7 @@ const base = {
   id: "CM_ACC_BUFF_0",
   stat_type: "combat_stat_add",
   stat_sub_type: "attack_rating",
-  amount: 0.1,
+  amount: 0.05,
   duration: 3,
   remove_if_not_active: false,
   is_false_rule: false,
@@ -14,7 +14,7 @@ const base = {
 const allLevels = generateLevels(level => ({
   ...base,
   id: nameScale(base.id, level),
-  amount: base.amount + level * 0.05
+  amount: level === 4 ? 17 : base.amount + level * 0.03
 }));
 
 // console.log(allLevels);
