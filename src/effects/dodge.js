@@ -1,4 +1,4 @@
-const { generateLevels } = require("./effectUtils");
+const { generateLevels, nameScale } = require("./effectUtils");
 
 const defenseRatingBase = 3;
 const base = {
@@ -16,5 +16,10 @@ const base = {
 
 const allLevels = generateLevels(level => ({
   ...base,
+  name: nameScale(base.name, level),
   defense_rating_add: `${defenseRatingBase + level * 2}%`
 }));
+
+// console.log(allLevels);
+
+module.exports = allLevels;

@@ -14,6 +14,7 @@ const disableHealing = require("./effects/disableHealing");
 const stressDoneDebuff = require("./effects/stressDisableDebuff");
 const boogeymen = require("./effects/boogeymen");
 const causeStress = require("./effects/causeStress");
+const dodge = require("./effects/dodge");
 
 const preDefinedEffects = [
   {
@@ -68,5 +69,6 @@ module.exports = [
   ...disableHealing,
   ...stressDoneDebuff,
   ...boogeymen,
-  ...causeStress
+  ...causeStress,
+  ...dodge
 ];
