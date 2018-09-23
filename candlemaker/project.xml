@@ -5,11 +5,11 @@
 	<ModDataPath>C:/Users/Ellisande/dev/source/candlemaker-sim/candlemaker/</ModDataPath>
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
-	<UpdateDetails/>
+	<UpdateDetails>Try to fix animations</UpdateDetails>
 	<Visibility>private</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>0</VersionMajor>
-	<VersionMinor>13</VersionMinor>
+	<VersionMinor>14</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>hero</Tags>
