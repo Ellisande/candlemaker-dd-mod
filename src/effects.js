@@ -11,11 +11,12 @@ const torchIncreaseMinor = require("./effects/torchIncreaseMinor");
 const wild = require("./effects/wild");
 const clearmark = require("./effects/clearmark");
 const disableHealing = require("./effects/disableHealing");
-const stressDoneDebuff = require("./effects/stressDisableDebuff");
+const mereTrickeryBuff = require("./effects/mereTrickeryBuff");
 const boogeymen = require("./effects/boogeymen");
 const causeStress = require("./effects/causeStress");
 const dodge = require("./effects/dodge");
 const pull = require("./effects/pull");
+const stealHorror = require("./effects/stealHorror");
 
 const preDefinedEffects = [
   {
@@ -68,9 +69,10 @@ module.exports = [
   ...wild,
   ...clearmark,
   ...disableHealing,
-  ...stressDoneDebuff,
+  ...mereTrickeryBuff,
   ...boogeymen,
   ...causeStress,
   ...dodge,
-  ...pull
+  ...pull,
+  ...stealHorror
 ];
