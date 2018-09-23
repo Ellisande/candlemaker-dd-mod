@@ -3,17 +3,17 @@ const { effectsScale, generateLevels, atkScale } = require("./skillUtils");
 const base = {
   id: "'mere_trickery'",
   level: "0",
-  type: "'ranged'",
-  atk: "95%",
-  dmg: "-100%",
+  type: "",
+  atk: "0%",
   crit: "0%",
-  launch: "43",
-  target: "~34",
+  launch: "1234",
+  target: "@1234",
   is_crit_valid: "False",
-  ignore_stealth: "true",
+  per_battle_limit: 3,
   effect: [
     "'CM Torch Increase Minor 0'",
-    "'Stress Disable Debuff'",
+    "'CM Mere Trickery Buff 0'",
+    "'CM Steal Horror'",
     "'CM Wild 0'"
   ],
   is_stall_invalidating: "false"
@@ -22,7 +22,6 @@ const base = {
 const allLevels = generateLevels(level => ({
   ...base,
   level,
-  atk: atkScale(base.atk, level),
   effect: effectsScale(base.effect, level)
 }));
 
