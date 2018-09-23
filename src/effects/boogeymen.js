@@ -13,7 +13,7 @@ const base = {
   ],
   on_hit: "true",
   on_miss: "true",
-  apply_once: "false"
+  apply_once: "true"
 };
 
 const allLevels = scaleJustNames(base);
