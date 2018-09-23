@@ -24,6 +24,6 @@ const allLevels = generateLevels(level => ({
   dotHpHeal: healScale[level]
 }));
 
-console.log(allLevels);
+// console.log(allLevels);
 
 module.exports = allLevels;
