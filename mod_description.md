@@ -1,3 +1,5 @@
+This mod adds a new hero the Candlemaker. She focuses on manipulating light to empower her party.
+
 ## Candlemaker
 
 The Candlemaker is a middling support unit that can set up strong turns of powerful healing or devastating damage. In order to maximize her potential you have to take advantage of her main mechanic: manipulating the light level.
