@@ -10,10 +10,10 @@ const base = {
   level: "0",
   type: "'ranged'",
   atk: "60%",
-  dmg: "-60%",
+  dmg: "-75%",
   crit: "3%",
-  launch: "23",
-  target: "@1234",
+  launch: "123",
+  target: "~1234",
   is_crit_valid: "True",
   effect: [
     "'CM Torch Decrease Minor 0'",
