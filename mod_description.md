@@ -97,6 +97,6 @@ Blazing star is a "big moment" heal. Healing the entire party over time when you
 - Increase accuracy
 - Small increase to virtue chance
 
-"The darkness holds much more than mere trickery". The Candlemaker raises her candle high dispelling the enemies filling the party with comfort and dispelling all the but the most fightening of horrors.
+"The darkness holds much more than mere trickery". The Candlemaker raises her candle high filling the party with comfort and dispelling all the but the most fightening of horrors.
 
 Mere trickery allows you to greatly reduce the effects of horror on your team. It is situational but synergizes well with Boogeymen. The accuracy increase can also help units like Leper and Occultist be more reliable damage dealers in the end game. Be warned: if you let the stress reduction wear off before the horror you might have set your unit up for massive stress, particularly at low light levels
