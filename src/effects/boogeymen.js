@@ -22,6 +22,6 @@ const allLevels = generateLevels(level => ({
   damage_high_multiply: base.damage_high_multiply + level * 0.05
 }));
 
-console.log(allLevels);
+// console.log(allLevels);
 
 module.exports = allLevels;
