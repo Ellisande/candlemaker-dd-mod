@@ -16,7 +16,6 @@ const base = {
 
 const allLevels = generateLevels(level => ({
   ...base,
-  level,
   name: nameScale(base.name, level),
   damage_low_multiply: base.damage_low_multiply + level * 0.05,
   damage_high_multiply: base.damage_high_multiply + level * 0.05
