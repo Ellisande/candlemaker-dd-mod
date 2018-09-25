@@ -1,4 +1,4 @@
-const { scaleJustNames } = require("./effectUtils");
+const { generateLevels, nameScale } = require("./effectUtils");
 
 const base = {
   name: "'CM Boogeymen 0'",
@@ -6,17 +6,22 @@ const base = {
   curio_result_type: "'positive'",
   chance: "100%",
   duration: "1",
-  buff_ids: [
-    "'BOOGEYMEN_DAMAGE_DONE_BUFF_0'"
-    // "'BOOGEYMEN_MIN_DAMAGE_DONE_DEBUFF_0'"
-  ],
+  combat_stat_buff: 1,
+  damage_low_multiply: 0.8,
+  damage_high_multiply: 0.8,
   on_hit: "true",
   on_miss: "true",
   apply_once: "true"
 };
 
-const allLevels = scaleJustNames(base);
+const allLevels = generateLevels(level => ({
+  ...base,
+  level,
+  name: nameScale(base.name, level),
+  damage_low_multiply: base.damage_low_multiply + level * 0.05,
+  damage_high_multiply: base.damage_high_multiply + level * 0.05
+}));
 
-// console.log(allLevels);
+console.log(allLevels);
 
 module.exports = allLevels;
