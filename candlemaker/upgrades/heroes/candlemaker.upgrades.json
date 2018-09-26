@@ -293,7 +293,7 @@
       ]
     },
     {
-      "id": "candlemaker.disruptive_curse",
+      "id": "candlemaker.eerie_wax",
       "is_instanced": true,
       "tags": ["combat_skill"],
       "requirements": [
@@ -308,7 +308,7 @@
           "currency_cost": [{ "type": "gold", "amount": 250 }],
           "prerequisite_requirements": [
             {
-              "tree_id": "candlemaker.disruptive_curse",
+              "tree_id": "candlemaker.eerie_wax",
               "requirement_code": "0"
             },
             { "tree_id": "guild.skill_levels", "requirement_code": "a" }
@@ -320,7 +320,7 @@
           "currency_cost": [{ "type": "gold", "amount": 750 }],
           "prerequisite_requirements": [
             {
-              "tree_id": "candlemaker.disruptive_curse",
+              "tree_id": "candlemaker.eerie_wax",
               "requirement_code": "1"
             },
             { "tree_id": "guild.skill_levels", "requirement_code": "b" }
@@ -332,7 +332,7 @@
           "currency_cost": [{ "type": "gold", "amount": 1250 }],
           "prerequisite_requirements": [
             {
-              "tree_id": "candlemaker.disruptive_curse",
+              "tree_id": "candlemaker.eerie_wax",
               "requirement_code": "2"
             },
             { "tree_id": "guild.skill_levels", "requirement_code": "c" }
@@ -344,7 +344,7 @@
           "currency_cost": [{ "type": "gold", "amount": 2500 }],
           "prerequisite_requirements": [
             {
-              "tree_id": "candlemaker.disruptive_curse",
+              "tree_id": "candlemaker.eerie_wax",
               "requirement_code": "3"
             },
             { "tree_id": "guild.skill_levels", "requirement_code": "d" }
