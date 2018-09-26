@@ -11,7 +11,7 @@ const base = {
   name: "'CM Group Healdot 0'",
   target: "'performer_group'",
   curio_result_type: "'positive'",
-  chance: "80%",
+  chance: "100%",
   dotHpHeal: "2",
   duration: "2",
   on_hit: "true",
