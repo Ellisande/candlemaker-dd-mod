@@ -7,7 +7,7 @@ const base = {
   duration: "3",
   buff_ids: "'POISED_HEALING_TAKEN_BUFF_0'",
   on_hit: "true",
-  on_miss: "true",
+  on_miss: "false",
   apply_once: "false",
   queue: "true"
 };
