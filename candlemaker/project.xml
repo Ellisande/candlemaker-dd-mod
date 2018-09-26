@@ -5,11 +5,11 @@
 	<ModDataPath>C:/Users/Ellisande/dev/source/candlemaker-sim/candlemaker/</ModDataPath>
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
-	<UpdateDetails>Snuff can now be used from rank 2. Attempted fix for eerie wax dot transfer</UpdateDetails>
+	<UpdateDetails>Attempt to modularize effects and buffs</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
-	<VersionMajor>0</VersionMajor>
-	<VersionMinor>26</VersionMinor>
+	<VersionMajor>1</VersionMajor>
+	<VersionMinor>0</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>hero</Tags>
