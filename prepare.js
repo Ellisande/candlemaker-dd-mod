@@ -1,13 +1,18 @@
 const fs = require("fs");
 
 fs.copyFileSync(
-  "./build/base.effects.darkest",
-  "./candlemaker/effects/base.effects.darkest"
+  "./build/candlemaker.effects.darkest",
+  "./candlemaker/effects/candlemaker.effects.darkest"
 );
 
 fs.copyFileSync(
-  "./build/base.buffs.json",
-  "./candlemaker/shared/buffs/base.buffs.json"
+  "./build/candlemaker.buffs.json",
+  "./candlemaker/shared/buffs/candlemaker.buffs.json"
+);
+
+fs.copyFileSync(
+  "./build/candlemaker.info.darkest",
+  "./candlemaker/heroes/candlemaker.info.darkest"
 );
 
 // Remove localization for now since it doesn't seem to work correctly
