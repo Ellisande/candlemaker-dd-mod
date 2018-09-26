@@ -1,0 +1,81 @@
+effect: .name "CM Blazing Torch 0" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 75 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Blazing Torch 1" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 75 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Blazing Torch 2" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 75 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Blazing Torch 3" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 75 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Blazing Torch 4" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 75 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Damage Done Decrease 0" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .damage_low_multiply -0.3 .damage_high_multiply -0.3 .on_hit true .on_miss true .apply_once false
+effect: .name "CM Damage Done Decrease 1" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .damage_low_multiply -0.3 .damage_high_multiply -0.3 .on_hit true .on_miss true .apply_once false
+effect: .name "CM Damage Done Decrease 2" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .damage_low_multiply -0.3 .damage_high_multiply -0.3 .on_hit true .on_miss true .apply_once false
+effect: .name "CM Damage Done Decrease 3" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .damage_low_multiply -0.3 .damage_high_multiply -0.3 .on_hit true .on_miss true .apply_once false
+effect: .name "CM Damage Done Decrease 4" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .damage_low_multiply -0.3 .damage_high_multiply -0.3 .on_hit true .on_miss true .apply_once false
+effect: .name "CM Damge Taken Debuff 0" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DAMAGE_TAKEN_INCREASE" .on_hit true .on_miss false .apply_once false
+effect: .name "CM Damge Taken Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DAMAGE_TAKEN_INCREASE" .on_hit true .on_miss false .apply_once false
+effect: .name "CM Damge Taken Debuff 2" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DAMAGE_TAKEN_INCREASE" .on_hit true .on_miss false .apply_once false
+effect: .name "CM Damge Taken Debuff 3" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DAMAGE_TAKEN_INCREASE" .on_hit true .on_miss false .apply_once false
+effect: .name "CM Damge Taken Debuff 4" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DAMAGE_TAKEN_INCREASE" .on_hit true .on_miss false .apply_once false
+effect: .name "CM Group Healdot 0" .target "performer_group" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false
+effect: .name "CM Group Healdot 1" .target "performer_group" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false
+effect: .name "CM Group Healdot 2" .target "performer_group" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 2 .on_hit true .on_miss false
+effect: .name "CM Group Healdot 3" .target "performer_group" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 2 .on_hit true .on_miss false
+effect: .name "CM Group Healdot 4" .target "performer_group" .curio_result_type "positive" .chance 100% .dotHpHeal 4 .duration 2 .on_hit true .on_miss false
+effect: .name "CM Poised 0" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_0" .on_hit true .on_miss false .apply_once false .queue true
+effect: .name "CM Poised 1" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_1" .on_hit true .on_miss false .apply_once false .queue true
+effect: .name "CM Poised 2" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_2" .on_hit true .on_miss false .apply_once false .queue true
+effect: .name "CM Poised 3" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_3" .on_hit true .on_miss false .apply_once false .queue true
+effect: .name "CM Poised 4" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_4" .on_hit true .on_miss false .apply_once false .queue true
+effect: .name "CM Healdot 0" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 2 .on_hit true .on_miss true
+effect: .name "CM Healdot 1" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 2 .on_hit true .on_miss true
+effect: .name "CM Healdot 2" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true
+effect: .name "CM Healdot 3" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 3 .on_hit true .on_miss true
+effect: .name "CM Healdot 4" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 3 .on_hit true .on_miss true
+effect: .name "CM Snuff Torch 0" .target "global" .chance 100% .curio_result_type "negative" .torch_decrease 75 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Snuff Torch 1" .target "global" .chance 100% .curio_result_type "negative" .torch_decrease 75 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Snuff Torch 2" .target "global" .chance 100% .curio_result_type "negative" .torch_decrease 75 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Snuff Torch 3" .target "global" .chance 100% .curio_result_type "negative" .torch_decrease 75 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Snuff Torch 4" .target "global" .chance 100% .curio_result_type "negative" .torch_decrease 75 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "Stealth" .target "target" .chance 100% .stealth 1 .on_hit true .on_miss false .duration 2
+effect: .name "CM Torch Decrease Minor 0" .target "global" .chance 100% .curio_result_type "negative" .torch_decrease 25 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Torch Decrease Minor 1" .target "global" .chance 100% .curio_result_type "negative" .torch_decrease 25 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Torch Decrease Minor 2" .target "global" .chance 100% .curio_result_type "negative" .torch_decrease 25 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Torch Decrease Minor 3" .target "global" .chance 100% .curio_result_type "negative" .torch_decrease 25 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Torch Decrease Minor 4" .target "global" .chance 100% .curio_result_type "negative" .torch_decrease 25 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Torch Increase Minor 0" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 25 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Torch Increase Minor 1" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 25 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Torch Increase Minor 2" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 25 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Torch Increase Minor 3" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 25 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Torch Increase Minor 4" .target "global" .chance 100% .curio_result_type "positive" .torch_increase 25 .on_hit true .on_miss false .apply_once true .queue false
+effect: .name "CM Wild 0" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 2 .buff_ids "WILD_DAMAGE_DONE_BUFF_0" "WILD_MIN_DAMAGE_DONE_DEBUFF_0" .on_hit true .on_miss true .apply_once false
+effect: .name "CM Wild 1" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 2 .buff_ids "WILD_DAMAGE_DONE_BUFF_1" "WILD_MIN_DAMAGE_DONE_DEBUFF_1" .on_hit true .on_miss true .apply_once false
+effect: .name "CM Wild 2" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 2 .buff_ids "WILD_DAMAGE_DONE_BUFF_2" "WILD_MIN_DAMAGE_DONE_DEBUFF_2" .on_hit true .on_miss true .apply_once false
+effect: .name "CM Wild 3" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 2 .buff_ids "WILD_DAMAGE_DONE_BUFF_3" "WILD_MIN_DAMAGE_DONE_DEBUFF_3" .on_hit true .on_miss true .apply_once false
+effect: .name "CM Wild 4" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 2 .buff_ids "WILD_DAMAGE_DONE_BUFF_4" "WILD_MIN_DAMAGE_DONE_DEBUFF_4" .on_hit true .on_miss true .apply_once false
+effect: .name "Clearmark" .target "target" .chance 100% .curio_result_type "neutral" .on_hit true .on_miss true .apply_once true .queue true .untag 1
+effect: .name "Disable Healing Abilities" .target "performer" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DISABLE_HEALING_DEBUFF" .on_hit true .on_miss false .apply_once true .queue true
+effect: .name "CM Mere Trickery Buff 0" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .on_hit true .on_miss true .apply_once true .buff_ids "CM_HORROR_REDUCTION_BUFF_0" "CM_ACC_BUFF_0" "CM_VIRTUE_BUFF_0"
+effect: .name "CM Mere Trickery Buff 1" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .on_hit true .on_miss true .apply_once true .buff_ids "CM_HORROR_REDUCTION_BUFF_1" "CM_ACC_BUFF_1" "CM_VIRTUE_BUFF_1"
+effect: .name "CM Mere Trickery Buff 2" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .on_hit true .on_miss true .apply_once true .buff_ids "CM_HORROR_REDUCTION_BUFF_2" "CM_ACC_BUFF_2" "CM_VIRTUE_BUFF_2"
+effect: .name "CM Mere Trickery Buff 3" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .on_hit true .on_miss true .apply_once true .buff_ids "CM_HORROR_REDUCTION_BUFF_3" "CM_ACC_BUFF_3" "CM_VIRTUE_BUFF_3"
+effect: .name "CM Mere Trickery Buff 4" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .on_hit true .on_miss true .apply_once true .buff_ids "CM_HORROR_REDUCTION_BUFF_4" "CM_ACC_BUFF_4" "CM_VIRTUE_BUFF_4"
+effect: .name "CM Boogeymen 0" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .combat_stat_buff 1 .damage_low_multiply 0.8 .damage_high_multiply 0.8 .on_hit true .on_miss true .apply_once true
+effect: .name "CM Boogeymen 1" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .combat_stat_buff 1 .damage_low_multiply 0.8500000000000001 .damage_high_multiply 0.8500000000000001 .on_hit true .on_miss true .apply_once true
+effect: .name "CM Boogeymen 2" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .combat_stat_buff 1 .damage_low_multiply 0.9 .damage_high_multiply 0.9 .on_hit true .on_miss true .apply_once true
+effect: .name "CM Boogeymen 3" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .combat_stat_buff 1 .damage_low_multiply 0.9500000000000001 .damage_high_multiply 0.9500000000000001 .on_hit true .on_miss true .apply_once true
+effect: .name "CM Boogeymen 4" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .combat_stat_buff 1 .damage_low_multiply 1 .damage_high_multiply 1 .on_hit true .on_miss true .apply_once true
+effect: .name "CM Boogeymen Target Stress" .target "target" .curio_result_type "negative" .chance 100% .dotStress 3 .duration 3 .on_hit true .on_miss true
+effect: .name "CM Dodge 0" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add 3% .on_hit true .on_miss true .queue true
+effect: .name "CM Dodge 1" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add 5% .on_hit true .on_miss true .queue true
+effect: .name "CM Dodge 2" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add 7% .on_hit true .on_miss true .queue true
+effect: .name "CM Dodge 3" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add 9% .on_hit true .on_miss true .queue true
+effect: .name "CM Dodge 4" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add 11% .on_hit true .on_miss true .queue true
+effect: .name "CM Boogeymen Pull" .target "target" .curio_result_type "positive" .chance 110% .pull 1 .on_hit true .on_miss true .apply_once true
+effect: .name "CM Steal Horror" .target "target_group_other" .curio_result_type "negative" .chance 100% .on_hit true .on_miss true .apply_once true .steal_buff_stat_type "stress_dot"
+effect: .name "CM Steal Bleed 0" .target "target_group" .curio_result_type "negative" .chance 100% .on_hit true .on_miss false .apply_once true .steal_buff_stat_type "hp_dot_bleed" .level 0
+effect: .name "CM Steal Bleed 1" .target "target_group" .curio_result_type "negative" .chance 100% .on_hit true .on_miss false .apply_once true .steal_buff_stat_type "hp_dot_bleed" .level 1
+effect: .name "CM Steal Bleed 2" .target "target_group" .curio_result_type "negative" .chance 100% .on_hit true .on_miss false .apply_once true .steal_buff_stat_type "hp_dot_bleed" .level 2
+effect: .name "CM Steal Bleed 3" .target "target_group" .curio_result_type "negative" .chance 100% .on_hit true .on_miss false .apply_once true .steal_buff_stat_type "hp_dot_bleed" .level 3
+effect: .name "CM Steal Bleed 4" .target "target_group" .curio_result_type "negative" .chance 100% .on_hit true .on_miss false .apply_once true .steal_buff_stat_type "hp_dot_bleed" .level 4
+effect: .name "CM Steal Blight 0" .target "target_group" .curio_result_type "negative" .chance 100% .on_hit true .on_miss false .apply_once true .steal_buff_stat_type "hp_dot_poison" .level 0
+effect: .name "CM Steal Blight 1" .target "target_group" .curio_result_type "negative" .chance 100% .on_hit true .on_miss false .apply_once true .steal_buff_stat_type "hp_dot_poison" .level 1
+effect: .name "CM Steal Blight 2" .target "target_group" .curio_result_type "negative" .chance 100% .on_hit true .on_miss false .apply_once true .steal_buff_stat_type "hp_dot_poison" .level 2
+effect: .name "CM Steal Blight 3" .target "target_group" .curio_result_type "negative" .chance 100% .on_hit true .on_miss false .apply_once true .steal_buff_stat_type "hp_dot_poison" .level 3
+effect: .name "CM Steal Blight 4" .target "target_group" .curio_result_type "negative" .chance 100% .on_hit true .on_miss false .apply_once true .steal_buff_stat_type "hp_dot_poison" .level 4
