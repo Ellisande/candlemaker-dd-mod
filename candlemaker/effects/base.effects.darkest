@@ -2195,21 +2195,21 @@ effect: .name "CM Damage Done Decrease 1" .target "target" .curio_result_type "n
 effect: .name "CM Damage Done Decrease 2" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .damage_low_multiply -0.3 .damage_high_multiply -0.3 .on_hit true .on_miss true .apply_once false
 effect: .name "CM Damage Done Decrease 3" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .damage_low_multiply -0.3 .damage_high_multiply -0.3 .on_hit true .on_miss true .apply_once false
 effect: .name "CM Damage Done Decrease 4" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .damage_low_multiply -0.3 .damage_high_multiply -0.3 .on_hit true .on_miss true .apply_once false
-effect: .name "CM Damge Taken Debuff 0" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DAMAGE_TAKEN_INCREASE" .on_hit true .on_miss false .apply_once true
-effect: .name "CM Damge Taken Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DAMAGE_TAKEN_INCREASE" .on_hit true .on_miss false .apply_once true
-effect: .name "CM Damge Taken Debuff 2" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DAMAGE_TAKEN_INCREASE" .on_hit true .on_miss false .apply_once true
-effect: .name "CM Damge Taken Debuff 3" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DAMAGE_TAKEN_INCREASE" .on_hit true .on_miss false .apply_once true
-effect: .name "CM Damge Taken Debuff 4" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DAMAGE_TAKEN_INCREASE" .on_hit true .on_miss false .apply_once true
+effect: .name "CM Damge Taken Debuff 0" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DAMAGE_TAKEN_INCREASE" .on_hit true .on_miss false .apply_once false
+effect: .name "CM Damge Taken Debuff 1" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DAMAGE_TAKEN_INCREASE" .on_hit true .on_miss false .apply_once false
+effect: .name "CM Damge Taken Debuff 2" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DAMAGE_TAKEN_INCREASE" .on_hit true .on_miss false .apply_once false
+effect: .name "CM Damge Taken Debuff 3" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DAMAGE_TAKEN_INCREASE" .on_hit true .on_miss false .apply_once false
+effect: .name "CM Damge Taken Debuff 4" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DAMAGE_TAKEN_INCREASE" .on_hit true .on_miss false .apply_once false
 effect: .name "CM Group Healdot 0" .target "performer_group" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false
 effect: .name "CM Group Healdot 1" .target "performer_group" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false
 effect: .name "CM Group Healdot 2" .target "performer_group" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 2 .on_hit true .on_miss false
 effect: .name "CM Group Healdot 3" .target "performer_group" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 2 .on_hit true .on_miss false
 effect: .name "CM Group Healdot 4" .target "performer_group" .curio_result_type "positive" .chance 100% .dotHpHeal 4 .duration 2 .on_hit true .on_miss false
-effect: .name "CM Poised 0" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_0" .on_hit true .on_miss true .apply_once false .queue true
-effect: .name "CM Poised 1" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_1" .on_hit true .on_miss true .apply_once false .queue true
-effect: .name "CM Poised 2" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_2" .on_hit true .on_miss true .apply_once false .queue true
-effect: .name "CM Poised 3" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_3" .on_hit true .on_miss true .apply_once false .queue true
-effect: .name "CM Poised 4" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_4" .on_hit true .on_miss true .apply_once false .queue true
+effect: .name "CM Poised 0" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_0" .on_hit true .on_miss false .apply_once false .queue true
+effect: .name "CM Poised 1" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_1" .on_hit true .on_miss false .apply_once false .queue true
+effect: .name "CM Poised 2" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_2" .on_hit true .on_miss false .apply_once false .queue true
+effect: .name "CM Poised 3" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_3" .on_hit true .on_miss false .apply_once false .queue true
+effect: .name "CM Poised 4" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_4" .on_hit true .on_miss false .apply_once false .queue true
 effect: .name "CM Healdot 0" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 2 .on_hit true .on_miss true
 effect: .name "CM Healdot 1" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 2 .on_hit true .on_miss true
 effect: .name "CM Healdot 2" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true
