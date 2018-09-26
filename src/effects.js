@@ -57,7 +57,6 @@ const preDefinedEffects = [
 ];
 
 module.exports = [
-  ...preDefinedEffects,
   ...blazingTorch,
   ...damageDoneDecrease,
   ...damageTaken,
