@@ -4,6 +4,7 @@ const strikeMatch = require("./skills/strikeMatch");
 const blazingStar = require("./skills/blazingStar");
 const mereTrickery = require("./skills/mereTrickery");
 const boogeymen = require("./skills/boogeymen");
+const eerieWax = require("./skills/eerieWax");
 
 module.exports = [
   ...embers,
@@ -11,5 +12,6 @@ module.exports = [
   ...strikeMatch,
   ...blazingStar,
   ...mereTrickery,
-  ...boogeymen
+  ...boogeymen,
+  ...eerieWax
 ];
