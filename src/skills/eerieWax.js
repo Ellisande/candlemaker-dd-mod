@@ -14,7 +14,7 @@ const base = {
   crit: "3%",
   launch: "1234",
   rank_damage_modifiers: "-50% -25% 25% 50%",
-  target: "1234",
+  target: "123",
   is_crit_valid: "True",
   effect: [
     "'CM Torch Decrease Minor 0'",
