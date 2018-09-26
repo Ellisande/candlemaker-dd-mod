@@ -18,7 +18,8 @@ const base = {
   is_crit_valid: "True",
   effect: [
     "'CM Torch Decrease Minor 0'",
-    "'CM Steal Effects 0'",
+    "'CM Steal Bleed 0'",
+    "'CM Steal Blight 0'",
     "'CM Poised 0'"
   ],
   generation_guaranteed: "true"

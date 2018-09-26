@@ -17,7 +17,8 @@ const causeStress = require("./effects/causeStress");
 const dodge = require("./effects/dodge");
 const pull = require("./effects/pull");
 const stealHorror = require("./effects/stealHorror");
-const stealEffects = require("./effects/stealEffects");
+const stealBleed = require("./effects/stealBleed");
+const stealBlight = require("./effects/stealBlight");
 
 const preDefinedEffects = [
   {
@@ -76,5 +77,6 @@ module.exports = [
   ...dodge,
   ...pull,
   ...stealHorror,
-  ...stealEffects
+  ...stealBleed,
+  ...stealBlight
 ];
