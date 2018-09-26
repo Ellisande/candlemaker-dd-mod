@@ -4,7 +4,7 @@ const base = {
   id: "'snuff'",
   level: "0",
   self_target_valid: "false",
-  launch: "34",
+  launch: "234",
   target: "@1234",
   is_crit_valid: "False",
   effect: [
