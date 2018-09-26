@@ -2200,18 +2200,18 @@ effect: .name "CM Damge Taken Debuff 1" .target "target" .curio_result_type "neg
 effect: .name "CM Damge Taken Debuff 2" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DAMAGE_TAKEN_INCREASE" .on_hit true .on_miss false .apply_once true
 effect: .name "CM Damge Taken Debuff 3" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DAMAGE_TAKEN_INCREASE" .on_hit true .on_miss false .apply_once true
 effect: .name "CM Damge Taken Debuff 4" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .buff_ids "DAMAGE_TAKEN_INCREASE" .on_hit true .on_miss false .apply_once true
-effect: .name "CM Group Healdot 0" .target "performer_group" .curio_result_type "positive" .chance 80% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false
-effect: .name "CM Group Healdot 1" .target "performer_group" .curio_result_type "positive" .chance 80% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false
-effect: .name "CM Group Healdot 2" .target "performer_group" .curio_result_type "positive" .chance 80% .dotHpHeal 3 .duration 2 .on_hit true .on_miss false
-effect: .name "CM Group Healdot 3" .target "performer_group" .curio_result_type "positive" .chance 80% .dotHpHeal 3 .duration 2 .on_hit true .on_miss false
-effect: .name "CM Group Healdot 4" .target "performer_group" .curio_result_type "positive" .chance 80% .dotHpHeal 4 .duration 2 .on_hit true .on_miss false
+effect: .name "CM Group Healdot 0" .target "performer_group" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false
+effect: .name "CM Group Healdot 1" .target "performer_group" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 2 .on_hit true .on_miss false
+effect: .name "CM Group Healdot 2" .target "performer_group" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 2 .on_hit true .on_miss false
+effect: .name "CM Group Healdot 3" .target "performer_group" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 2 .on_hit true .on_miss false
+effect: .name "CM Group Healdot 4" .target "performer_group" .curio_result_type "positive" .chance 100% .dotHpHeal 4 .duration 2 .on_hit true .on_miss false
 effect: .name "CM Poised 0" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_0" .on_hit true .on_miss true .apply_once false .queue true
 effect: .name "CM Poised 1" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_1" .on_hit true .on_miss true .apply_once false .queue true
 effect: .name "CM Poised 2" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_2" .on_hit true .on_miss true .apply_once false .queue true
 effect: .name "CM Poised 3" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_3" .on_hit true .on_miss true .apply_once false .queue true
 effect: .name "CM Poised 4" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_4" .on_hit true .on_miss true .apply_once false .queue true
-effect: .name "CM Healdot 0" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true
-effect: .name "CM Healdot 1" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true
+effect: .name "CM Healdot 0" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 2 .on_hit true .on_miss true
+effect: .name "CM Healdot 1" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 2 .on_hit true .on_miss true
 effect: .name "CM Healdot 2" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true
 effect: .name "CM Healdot 3" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 3 .on_hit true .on_miss true
 effect: .name "CM Healdot 4" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 3 .on_hit true .on_miss true
@@ -2256,3 +2256,8 @@ effect: .name "CM Dodge 3" .target "target" .curio_result_type "positive" .chanc
 effect: .name "CM Dodge 4" .target "target" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .defense_rating_add 11% .on_hit true .on_miss true .queue true
 effect: .name "CM Boogeymen Pull" .target "target" .curio_result_type "positive" .chance 110% .pull 1 .on_hit true .on_miss true .apply_once true
 effect: .name "CM Steal Horror" .target "target_group_other" .curio_result_type "negative" .chance 100% .on_hit true .on_miss true .apply_once true .steal_buff_stat_type "stress_dot"
+effect: .name "CM Steal Effects 0" .target "target_group_other" .curio_result_type "negative" .chance 100% .on_hit true .on_miss false .apply_once true .steal_buff_stat_type "hp_dot_bleed" "hp_dot_poison" .swap_source_and_target true .level 0
+effect: .name "CM Steal Effects 1" .target "target_group_other" .curio_result_type "negative" .chance 100% .on_hit true .on_miss false .apply_once true .steal_buff_stat_type "hp_dot_bleed" "hp_dot_poison" .swap_source_and_target true .level 1
+effect: .name "CM Steal Effects 2" .target "target_group_other" .curio_result_type "negative" .chance 100% .on_hit true .on_miss false .apply_once true .steal_buff_stat_type "hp_dot_bleed" "hp_dot_poison" .swap_source_and_target true .level 2
+effect: .name "CM Steal Effects 3" .target "target_group_other" .curio_result_type "negative" .chance 100% .on_hit true .on_miss false .apply_once true .steal_buff_stat_type "hp_dot_bleed" "hp_dot_poison" .swap_source_and_target true .level 3
+effect: .name "CM Steal Effects 4" .target "target_group_other" .curio_result_type "negative" .chance 100% .on_hit true .on_miss false .apply_once true .steal_buff_stat_type "hp_dot_bleed" "hp_dot_poison" .swap_source_and_target true .level 4
