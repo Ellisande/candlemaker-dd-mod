@@ -10,10 +10,9 @@ const base = {
   level: "0",
   type: "'melee'",
   atk: "95%",
-  dmg: "0%",
-  crit: "3%",
+  dmg: "-50%",
+  crit: "0%",
   launch: "1234",
-  rank_damage_modifiers: "-50% -25% 25% 50%",
   target: "123",
   is_crit_valid: "True",
   effect: [
