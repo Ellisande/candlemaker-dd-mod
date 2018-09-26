@@ -5,18 +5,18 @@
 	<ModDataPath>C:/Users/Ellisande/dev/source/candlemaker-sim/candlemaker/</ModDataPath>
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
-	<UpdateDetails>Rename files for eerie wax and allow it to be upgraded</UpdateDetails>
+	<UpdateDetails>Make poised not apply on miss. Try to get embers to apply debuff to all enemies hit</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>0</VersionMajor>
-	<VersionMinor>24</VersionMinor>
+	<VersionMinor>25</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>hero</Tags>
 		<Tags>candlemaker</Tags>
 		<Tags>torch dancing</Tags>
 	</Tags>
-	<ItemDescription>The Candlemaker plays with light the way others do with movement. He rewards a cyclic play style with big moments of power.</ItemDescription>
+	<ItemDescription/>
 	<PublishedFileId>1516780821</PublishedFileId>
 </project>
 
