@@ -12,7 +12,7 @@ fs.copyFileSync(
 
 fs.copyFileSync(
   "./build/candlemaker.info.darkest",
-  "./candlemaker/heroes/candlemaker.info.darkest"
+  "./candlemaker/heroes/candlemaker/candlemaker.info.darkest"
 );
 
 // Remove localization for now since it doesn't seem to work correctly
