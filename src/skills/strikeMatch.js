@@ -4,7 +4,7 @@ const base = {
   id: "'strike_match'",
   level: "0",
   type: "'melee'",
-  heal: "0 1",
+  heal: "0",
   self_target_valid: "true",
   launch: "1234",
   target: "@1234",
@@ -15,15 +15,10 @@ const base = {
 
 const healScale = {
   0: `0 0`,
-  1: `0 1`,
-  2: `1 1`,
-  3: `0 0`,
+  1: `0 0`,
+  2: `0 1`,
+  3: `0 1`,
   4: `1 1`
-};
-
-const scaleHeal = level => {
-  const increase = Math.floor(level / 2);
-  return `${0 + increase} ${1 + increase}`;
 };
 
 const allLevels = generateLevels(level => ({
