@@ -5,7 +5,7 @@ const base = {
   level: "0",
   self_target_valid: "false",
   launch: "34",
-  target: "@123",
+  target: "@1234",
   is_crit_valid: "False",
   effect: [
     "'CM Snuff Torch 0'",
