@@ -9,7 +9,7 @@ const base = {
   buff_ids: "'DAMAGE_TAKEN_INCREASE'",
   on_hit: "true",
   on_miss: "false",
-  apply_once: "true"
+  apply_once: "false"
 };
 
 const allLevels = scaleJustNames(base);
