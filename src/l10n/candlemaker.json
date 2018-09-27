@@ -68,5 +68,45 @@
   {
     "id": "action_verbose_body_camping_trainer_candlemaker",
     "data": "At rest, the Candlemaker will attempt communion with the dark and impossible forces of the void in an effort to strengthen himself and the party. Such efforts are frequently taxing, however, exacting a toll in darkness and stress."
+  },
+  {
+    "id": "candlemaker_armour_0",
+    "data": "Tattered Apron"
+  },
+  {
+    "id": "candlemaker_armour_1",
+    "data": "Waxy Apron"
+  },
+  {
+    "id": "candlemaker_armour_2",
+    "data": "Padded Apron"
+  },
+  {
+    "id": "candlemaker_armour_3",
+    "data": "Reinforced Apron"
+  },
+  {
+    "id": "candlemaker_armour_4",
+    "data": "\"The Promise of Safety\""
+  },
+  {
+    "id": "candlemaker_weapon_0",
+    "data": "Wet Candle"
+  },
+  {
+    "id": "candlemaker_weapon_1",
+    "data": "Candle"
+  },
+  {
+    "id": "candlemaker_weapon_2",
+    "data": "Votive Cnadle"
+  },
+  {
+    "id": "candlemaker_weapon_3",
+    "data": "Masterwork Candle"
+  },
+  {
+    "id": "candlemaker_weapon_4",
+    "data": "\"The Endless Torch\""
   }
 ]
