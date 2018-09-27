@@ -1,24 +1,31 @@
 const fs = require("fs");
 
+// Copy built effects into the mod deliverable
 fs.copyFileSync(
   "./build/candlemaker.effects.darkest",
   "./candlemaker/effects/candlemaker.effects.darkest"
 );
 
+// Copy built buffs into the mod deliverable
 fs.copyFileSync(
   "./build/candlemaker.buffs.json",
   "./candlemaker/shared/buffs/candlemaker.buffs.json"
 );
 
+// Copy built camping skills into the mod deliverable
+fs.copyFileSync(
+  "./build/candlemaker.camping_skills.json",
+  "./candlemaker/raid/camping/candlemaker.camping_skills.json"
+);
+
+// Copy built class skills into the mod deliverable
 fs.copyFileSync(
   "./build/candlemaker.info.darkest",
   "./candlemaker/heroes/candlemaker/candlemaker.info.darkest"
 );
 
-// Remove localization for now since it doesn't seem to work correctly
+// Copy built string localizations into the mod deliverable
 fs.copyFileSync(
   "./build/candlemaker.string_table.xml",
   "./candlemaker/localization/candlemaker.string_table.xml"
 );
-
-// Need to copy over the class, but we don't have the build for it yet.
