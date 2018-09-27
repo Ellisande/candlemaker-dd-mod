@@ -1,4 +1,4 @@
-const { scaleJustNames } = require("./effectUtils");
+const { generateLevels, nameScale } = require("./effectUtils");
 
 const base = {
   name: "'CM Damge Taken Debuff 0'",
@@ -6,13 +6,16 @@ const base = {
   curio_result_type: "'negative'",
   chance: "100%",
   duration: "2",
-  buff_ids: "'DAMAGE_TAKEN_INCREASE'",
+  buff_type: "damage_received_percent",
+  buff_amount: "30%",
   on_hit: "true",
-  on_miss: "false",
-  apply_once: "false"
+  on_miss: "false"
 };
 
-const allLevels = scaleJustNames(base);
+const allLevels = generateLevels(level => ({
+  ...base,
+  name: nameScale(base.name, level)
+}));
 
 // console.log(allLevels);
 
