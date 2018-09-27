@@ -5,6 +5,7 @@ const baseHeroTemplate = require("./src/candlemakerBase");
 const effects = require("./src/effects");
 const buffs = require("./src/buffs");
 const l10nEntries = require("./src/l10n/candlemaker.json");
+const campingSkills = require("./src/campingSkills");
 
 const idMap = {
   "'blazing_star'": "'wyrd_reconstruction'",
@@ -47,3 +48,8 @@ const l10nTemplate = `
 `;
 
 fs.writeFileSync("./build/candlemaker.string_table.xml", l10nTemplate);
+
+fs.writeFileSync(
+  "./build/candlemaker.camping_skills.json",
+  JSON.stringify(campingSkills, null, 2)
+);
