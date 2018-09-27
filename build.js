@@ -42,7 +42,7 @@ const l10nTemplate = `
 <root>
   <language id="english">
     ${l10nEntries.map(mapL10nEntry).join("\n")}
-  <language/>
+  </language>
 </root>
 `;
 
