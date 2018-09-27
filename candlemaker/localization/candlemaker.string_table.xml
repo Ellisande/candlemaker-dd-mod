@@ -1,0 +1,25 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+    <entry id="hero_class_name_candlemaker"><![CDATA[Candlemaker]]></entry>
+<entry id="combat_skill_name_candlemaker_embers"><![CDATA[Embers]]></entry>
+<entry id="combat_skill_name_candlemaker_boogeymen"><![CDATA[Boogeymen]]></entry>
+<entry id="combat_skill_name_candlemaker_mere_trickery"><![CDATA[Mere Trickery]]></entry>
+<entry id="combat_skill_name_candlemaker_blazing_star"><![CDATA[Blazing Star]]></entry>
+<entry id="combat_skill_name_candlemaker_eerie_wax"><![CDATA[Eerie Wax]]></entry>
+<entry id="combat_skill_name_candlemaker_strike_match"><![CDATA[Strike Match]]></entry>
+<entry id="combat_skill_name_candlemaker_snuff"><![CDATA[Snuff]]></entry>
+<entry id="combat_skill_name_candlemaker_move"><![CDATA[Move]]></entry>
+<entry id="upgrade_tree_name_candlemaker.embers"><![CDATA[Embers]]></entry>
+<entry id="upgrade_tree_name_candlemaker.boogeymen"><![CDATA[Boogeymen]]></entry>
+<entry id="upgrade_tree_name_candlemaker.mere_trickery"><![CDATA[Mere Trickery]]></entry>
+<entry id="upgrade_tree_name_candlemaker.blazing_star"><![CDATA[Blazing Star]]></entry>
+<entry id="upgrade_tree_name_candlemaker.eerie_wax"><![CDATA[Eerie Wax]]></entry>
+<entry id="upgrade_tree_name_candlemaker.strike_match"><![CDATA[Strike Match]]></entry>
+<entry id="upgrade_tree_name_candlemaker.snuff"><![CDATA[Snuff]]></entry>
+<entry id="action_verbose_body_guild_candlemaker"><![CDATA[Her gruesome candle shines comforting light and casts terrifying shadows.]]></entry>
+<entry id="action_verbose_body_blacksmith_candlemaker"><![CDATA[Scholarly robes, better suited to the library than the harsh realities of adventuring, are all the Candlemaker has brought with her. His rituals and chants require deft movements of hand and finger, so better he be unencumbered that he may channel the power of his morbid fetish: the polished skull of a dead man.]]></entry>
+<entry id="action_verbose_body_camping_trainer_candlemaker"><![CDATA[At rest, the Candlemaker will attempt communion with the dark and impossible forces of the void in an effort to strengthen himself and the party. Such efforts are frequently taxing, however, exacting a toll in darkness and stress.]]></entry>
+  </language>
+</root>
