@@ -21,5 +21,15 @@
 <entry id="action_verbose_body_guild_candlemaker"><![CDATA[Her gruesome candle shines comforting light and casts terrifying shadows.]]></entry>
 <entry id="action_verbose_body_blacksmith_candlemaker"><![CDATA[Scholarly robes, better suited to the library than the harsh realities of adventuring, are all the Candlemaker has brought with her. His rituals and chants require deft movements of hand and finger, so better he be unencumbered that he may channel the power of his morbid fetish: the polished skull of a dead man.]]></entry>
 <entry id="action_verbose_body_camping_trainer_candlemaker"><![CDATA[At rest, the Candlemaker will attempt communion with the dark and impossible forces of the void in an effort to strengthen himself and the party. Such efforts are frequently taxing, however, exacting a toll in darkness and stress.]]></entry>
+<entry id="candlemaker_armour_0"><![CDATA[Tattered Apron]]></entry>
+<entry id="candlemaker_armour_1"><![CDATA[Waxy Apron]]></entry>
+<entry id="candlemaker_armour_2"><![CDATA[Padded Apron]]></entry>
+<entry id="candlemaker_armour_3"><![CDATA[Reinforced Apron]]></entry>
+<entry id="candlemaker_armour_4"><![CDATA["The Promise of Safety"]]></entry>
+<entry id="candlemaker_weapon_0"><![CDATA[Wet Candle]]></entry>
+<entry id="candlemaker_weapon_1"><![CDATA[Candle]]></entry>
+<entry id="candlemaker_weapon_2"><![CDATA[Votive Cnadle]]></entry>
+<entry id="candlemaker_weapon_3"><![CDATA[Masterwork Candle]]></entry>
+<entry id="candlemaker_weapon_4"><![CDATA["The Endless Torch"]]></entry>
   </language>
 </root>
