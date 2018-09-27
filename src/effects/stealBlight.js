@@ -2,14 +2,14 @@ const { generateLevels, nameScale } = require("./effectUtils");
 
 const base = {
   name: "'CM Steal Blight 0'",
-  target: "'target_group'",
-  curio_result_type: "'negative'",
+  target: "'performer_group'",
+  curio_result_type: "'positive'",
   chance: "100%",
   on_hit: "true",
   on_miss: "false",
   apply_once: "true",
-  steal_buff_stat_type: "'hp_dot_poison'"
-  // swap_source_and_target: true
+  steal_buff_stat_type: "'hp_dot_poison'",
+  swap_source_and_target: true
 };
 
 const allLevels = generateLevels(level => ({
