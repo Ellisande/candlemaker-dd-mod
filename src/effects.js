@@ -16,7 +16,6 @@ const boogeymen = require("./effects/boogeymen");
 const causeStress = require("./effects/causeStress");
 const dodge = require("./effects/dodge");
 const pull = require("./effects/pull");
-const stealHorror = require("./effects/stealHorror");
 const stealBleed = require("./effects/stealBleed");
 const stealBlight = require("./effects/stealBlight");
 
@@ -75,7 +74,6 @@ module.exports = [
   ...causeStress,
   ...dodge,
   ...pull,
-  ...stealHorror,
   ...stealBleed,
   ...stealBlight
 ];
