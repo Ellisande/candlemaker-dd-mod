@@ -4,14 +4,14 @@ const base = {
   target: "'target'",
   curio_result_type: "'positive'",
   chance: "100%",
-  duration: "3",
   on_hit: "true",
   on_miss: "true",
   apply_once: "true",
   buff_ids: [
     "'CM_HORROR_REDUCTION_BUFF_0'",
     "'CM_ACC_BUFF_0'",
-    "'CM_VIRTUE_BUFF_0'"
+    "'CM_STEALTH_DAMAGE_BUFF'",
+    "'CM_IGNORE_STEALTH_BUFF'"
   ]
 };
 
