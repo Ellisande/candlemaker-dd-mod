@@ -4,8 +4,8 @@ const base = {
   id: "CM_HORROR_REDUCTION_BUFF_0",
   stat_type: "stress_dot_amount_received_percent",
   stat_sub_type: "",
-  amount: -0.6,
-  duration: 3,
+  amount: -1,
+  duration: 5,
   remove_if_not_active: false,
   is_false_rule: false,
   rule_type: "always"
