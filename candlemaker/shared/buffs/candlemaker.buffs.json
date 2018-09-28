@@ -288,8 +288,8 @@
       "id": "CM_HORROR_REDUCTION_BUFF_0",
       "stat_type": "stress_dot_amount_received_percent",
       "stat_sub_type": "",
-      "amount": -0.6,
-      "duration": 3,
+      "amount": -1,
+      "duration": 5,
       "remove_if_not_active": false,
       "is_false_rule": false,
       "rule_type": "always"
@@ -298,8 +298,8 @@
       "id": "CM_HORROR_REDUCTION_BUFF_1",
       "stat_type": "stress_dot_amount_received_percent",
       "stat_sub_type": "",
-      "amount": -0.65,
-      "duration": 3,
+      "amount": -1.05,
+      "duration": 5,
       "remove_if_not_active": false,
       "is_false_rule": false,
       "rule_type": "always"
@@ -308,8 +308,8 @@
       "id": "CM_HORROR_REDUCTION_BUFF_2",
       "stat_type": "stress_dot_amount_received_percent",
       "stat_sub_type": "",
-      "amount": -0.7,
-      "duration": 3,
+      "amount": -1.1,
+      "duration": 5,
       "remove_if_not_active": false,
       "is_false_rule": false,
       "rule_type": "always"
@@ -318,8 +318,8 @@
       "id": "CM_HORROR_REDUCTION_BUFF_3",
       "stat_type": "stress_dot_amount_received_percent",
       "stat_sub_type": "",
-      "amount": -0.75,
-      "duration": 3,
+      "amount": -1.15,
+      "duration": 5,
       "remove_if_not_active": false,
       "is_false_rule": false,
       "rule_type": "always"
@@ -328,58 +328,32 @@
       "id": "CM_HORROR_REDUCTION_BUFF_4",
       "stat_type": "stress_dot_amount_received_percent",
       "stat_sub_type": "",
-      "amount": -0.8,
-      "duration": 3,
+      "amount": -1.2,
+      "duration": 5,
       "remove_if_not_active": false,
       "is_false_rule": false,
       "rule_type": "always"
     },
     {
-      "id": "CM_VIRTUE_BUFF_0",
-      "stat_type": "resolve_check_percent",
-      "stat_sub_type": "",
-      "amount": 0.03,
-      "duration": 3,
+      "id": "CM_STEALTH_DAMAGE_BUFF",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": 0.5,
+      "duration": 2,
       "remove_if_not_active": false,
       "is_false_rule": false,
-      "rule_type": "always"
+      "rule_type": "target_is_stealthed",
+      "rule_data": {
+        "float": 1,
+        "string": ""
+      }
     },
     {
-      "id": "CM_VIRTUE_BUFF_1",
-      "stat_type": "resolve_check_percent",
+      "id": "CM_IGNORE_STEALTH_BUFF",
+      "stat_type": "ignore_stealth",
       "stat_sub_type": "",
-      "amount": 0.04,
-      "duration": 3,
-      "remove_if_not_active": false,
-      "is_false_rule": false,
-      "rule_type": "always"
-    },
-    {
-      "id": "CM_VIRTUE_BUFF_2",
-      "stat_type": "resolve_check_percent",
-      "stat_sub_type": "",
-      "amount": 0.05,
-      "duration": 3,
-      "remove_if_not_active": false,
-      "is_false_rule": false,
-      "rule_type": "always"
-    },
-    {
-      "id": "CM_VIRTUE_BUFF_3",
-      "stat_type": "resolve_check_percent",
-      "stat_sub_type": "",
-      "amount": 0.06,
-      "duration": 3,
-      "remove_if_not_active": false,
-      "is_false_rule": false,
-      "rule_type": "always"
-    },
-    {
-      "id": "CM_VIRTUE_BUFF_4",
-      "stat_type": "resolve_check_percent",
-      "stat_sub_type": "",
-      "amount": 0.07,
-      "duration": 3,
+      "amount": 1,
+      "duration": 2,
       "remove_if_not_active": false,
       "is_false_rule": false,
       "rule_type": "always"
