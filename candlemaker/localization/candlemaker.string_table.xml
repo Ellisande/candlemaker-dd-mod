@@ -31,5 +31,6 @@
 <entry id="candlemaker_weapon_2"><![CDATA[Votive Cnadle]]></entry>
 <entry id="candlemaker_weapon_3"><![CDATA[Masterwork Candle]]></entry>
 <entry id="candlemaker_weapon_4"><![CDATA["The Endless Torch"]]></entry>
+<entry id="buff_stat_tooltip_stress_dot_amount_received_percent"><![CDATA[%+d%% {colour_start|stress}Horror{colour_end} Stress]]></entry>
   </language>
 </root>
