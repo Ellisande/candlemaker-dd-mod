@@ -2,7 +2,7 @@ const { generateLevels, nameScale } = require("./effectUtils");
 
 const base = {
   name: "'CM Steal Bleed 0'",
-  target: "'performer_group'",
+  target: "'target_enemy_group'",
   curio_result_type: "'positive'",
   chance: "100%",
   on_hit: "true",
