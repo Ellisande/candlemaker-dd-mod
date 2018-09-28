@@ -108,5 +108,9 @@
   {
     "id": "candlemaker_weapon_4",
     "data": "\"The Endless Torch\""
+  },
+  {
+    "id": "buff_stat_tooltip_stress_dot_amount_received_percent",
+    "data": "%+d%% {colour_start|stress}Horror{colour_end} Stress"
   }
 ]
