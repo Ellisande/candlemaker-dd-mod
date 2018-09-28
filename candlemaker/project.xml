@@ -5,11 +5,11 @@
 	<ModDataPath>C:/Users/Ellisande/dev/source/candlemaker-sim/candlemaker/</ModDataPath>
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
-	<UpdateDetails>Attempt to get eerie wax steals working. Last try before going exotic to get it to work</UpdateDetails>
+	<UpdateDetails>Rework mere trickery. Another attemp at eerie wax</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>6</VersionMinor>
+	<VersionMinor>7</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>hero</Tags>
