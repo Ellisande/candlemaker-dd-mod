@@ -7,8 +7,9 @@ const base = {
   on_hit: "true",
   on_miss: "true",
   apply_once: "true",
+  clearDotStress: 1,
   buff_ids: [
-    "'CM_HORROR_REDUCTION_BUFF_0'",
+    "'CM_STRESS_REDUCTION_BUFF_0'",
     "'CM_ACC_BUFF_0'",
     "'CM_STEALTH_DAMAGE_BUFF'",
     "'CM_IGNORE_STEALTH_BUFF'"
