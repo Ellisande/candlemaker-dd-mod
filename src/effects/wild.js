@@ -1,6 +1,6 @@
 const { scaleJustNames } = require("./effectUtils");
 
-const base = {
+const single = {
   name: "'CM Wild 0'",
   target: "'performer_group'",
   curio_result_type: "'positive'",
@@ -12,8 +12,21 @@ const base = {
   apply_once: "false"
 };
 
-const allLevels = scaleJustNames(base);
+const double = {
+  name: "'CM Wild Double'",
+  target: "'performer_group'",
+  curio_result_type: "'positive'",
+  chance: "100%",
+  duration: "2",
+  buff_ids: [
+    "'WILD_DAMAGE_DONE_BUFF_DOUBLE'",
+    "'WILD_MIN_DAMAGE_DONE_DEBUFF_DOUBLE'"
+  ],
+  on_hit: "true",
+  on_miss: "true",
+  apply_once: "false"
+};
 
-// console.log(allLevels);
+// console.log([single, double]);
 
-module.exports = allLevels;
+module.exports = [single, double];
