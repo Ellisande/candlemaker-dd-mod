@@ -7,7 +7,7 @@ const base = {
   target: "'performer'",
   curio_result_type: "'positive'",
   chance: "100%",
-  key_status: "'bleeding'",
+  keyStatus: "'bleeding'",
   combat_stat_buff: 1,
   damage_low_multiply: `${baseDamageBuff}%`,
   damage_high_multiply: `${baseDamageBuff}%`,
