@@ -38,9 +38,6 @@ const chance = {
   apply_once: "false",
   queue: "true"
 };
-
-const singleLevels = scaleJustNames(single);
-
 const chanceLevels = generateLevels(level => ({
   ...chance,
   name: nameScale(chance.name, level),
@@ -50,4 +47,4 @@ const chanceLevels = generateLevels(level => ({
 // console.log(singleLevels);
 // console.log(chanceLevels);
 
-module.exports = [...singleLevels, double, ...chanceLevels];
+module.exports = [single, double, ...chanceLevels];
