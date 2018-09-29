@@ -6,7 +6,10 @@ const single = {
   curio_result_type: "'positive'",
   chance: "100%",
   duration: "2",
-  buff_ids: ["'WILD_DAMAGE_DONE_BUFF_0'", "'WILD_MIN_DAMAGE_DONE_DEBUFF_0'"],
+  buff_ids: [
+    "'WILD_DAMAGE_DONE_BUFF_0'",
+    "'WILD_MIN_DAMAGE_DONE_DEBUFF_SINGLE'"
+  ],
   on_hit: "true",
   on_miss: "true",
   apply_once: "false"

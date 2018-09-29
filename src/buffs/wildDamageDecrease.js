@@ -1,5 +1,5 @@
 const single = {
-  id: "WILD_MIN_DAMAGE_DONE_DEBUFF_0",
+  id: "WILD_MIN_DAMAGE_DONE_DEBUFF_SINGLE",
   stat_type: "combat_stat_multiply",
   stat_sub_type: "damage_low",
   amount: -0.1,
@@ -14,7 +14,7 @@ const single = {
 };
 
 const double = {
-  id: "WILD_MIN_DAMAGE_DONE_DEBUFF_0",
+  id: "WILD_MIN_DAMAGE_DONE_DEBUFF_DOUBLE",
   stat_type: "combat_stat_multiply",
   stat_sub_type: "damage_low",
   amount: -0.2,
