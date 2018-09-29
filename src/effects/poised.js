@@ -41,7 +41,7 @@ const chance = {
 const chanceLevels = generateLevels(level => ({
   ...chance,
   name: nameScale(chance.name, level),
-  chance: `${baseChance + level * 5}`
+  chance: `${baseChance + level * 5}%`
 }));
 
 // console.log(singleLevels);
