@@ -115,6 +115,6 @@
   },
   {
     "id": "buff_rule_tooltip_target_is_stealthed",
-    "data": "vs {color_start|stealth}Stealthed{color_end}"
+    "data": "%s vs. {colour_start|stealth}Stealthed{colour_end}"
   }
 ]
