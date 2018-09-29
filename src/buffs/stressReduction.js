@@ -1,11 +1,11 @@
 const { generateLevels, nameScale } = require("../effects/effectUtils");
 
 const base = {
-  id: "CM_HORROR_REDUCTION_BUFF_0",
-  stat_type: "stress_dot_amount_received_percent",
+  id: "CM_STRESS_REDUCTION_BUFF_0",
+  stat_type: "stress_dmg_received_percent",
   stat_sub_type: "",
-  amount: -1,
-  duration: 5,
+  amount: -0.6,
+  duration: 3,
   remove_if_not_active: false,
   is_false_rule: false,
   rule_type: "always"

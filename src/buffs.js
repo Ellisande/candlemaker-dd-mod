@@ -4,7 +4,7 @@ const wildDamageIncrease = require("./buffs/wildDamageIncrease");
 const disableHealingDebuff = require("./buffs/disableHealing");
 const stressDoneDebuff = require("./buffs/stressDisableDebuff");
 const accuracyBuff = require("./buffs/accuracyBuff");
-const horrorReduction = require("./buffs/horrorReduction");
+const stressReduction = require("./buffs/stressReduction");
 const stealthDamageBuff = require("./buffs/stealthDamageBuff");
 const ignoreSealth = require("./buffs/ignoreStealth");
 
@@ -15,7 +15,7 @@ module.exports = [
   ...disableHealingDebuff,
   ...stressDoneDebuff,
   ...accuracyBuff,
-  ...horrorReduction,
+  ...stressReduction,
   ...stealthDamageBuff,
   ...ignoreSealth
 ];
