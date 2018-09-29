@@ -18,7 +18,7 @@ const base = {
   effect: [
     "'CM Torch Decrease Minor 0'",
     "'CM Damge Taken Debuff 0'",
-    "'CM Poised Chanced 0'"
+    "'CM Poised Chance 0'"
   ],
   generation_guaranteed: "true"
 };
