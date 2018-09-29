@@ -74,7 +74,9 @@ Embers is one of only 2 direct attacks that Candlemaker has. The debuff it appli
 - Decrease torch by a small amount
 - Applies one stack of Poised to the pary
 
-The Candlemaker splashes the enemy with wax from her eerie candle. This grotesque goo drinks in blood and blight trapping it against the target.
+The Candlemaker splashes the enemy with wax from her strange candle. The boiling liquid raveonously consume blood and blight alike to devasting effect.
+
+Eerie wax is one of two base attacks for the candlemaker. You'll find it to be fairly weak on its own, however its can be used for massive damage on bleeding or blighted enemies. Especially if they have both. Beware: the candlemaker will get any bleed or blights currently on the target. Try to maximize the effect and minimize the risk by using eerie wax on targets with small damage over times on them.
 
 #### Strike Match (Single Target Heal)
 

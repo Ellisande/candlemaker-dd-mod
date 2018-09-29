@@ -6,6 +6,7 @@
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
 	<UpdateDetails>
+		(Fixes weren't actually included in the previous build, woops)
 		Eerie Wax:
 		 * Fixed an issue where it was giving 1000 times the intended crit chance vs bleed
 		 * Fix an issue where it was showing extremely long tooltip lines
@@ -13,7 +14,7 @@
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>13</VersionMinor>
+	<VersionMinor>14</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>class</Tags>
