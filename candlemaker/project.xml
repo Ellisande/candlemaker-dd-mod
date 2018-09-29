@@ -7,12 +7,12 @@
 	<Language>english</Language>
 	<UpdateDetails>
 		Eerie Wax: Fix a bug with bleed / blight increase buffs
-		Localization: Add a string for cure horror. Add a string for dmg vs stealthed
+		Localization: Fix tooltip for damage vs stealth
 	</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>10</VersionMinor>
+	<VersionMinor>11</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>hero</Tags>
