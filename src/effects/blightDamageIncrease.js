@@ -27,6 +27,6 @@ const allLevels = generateLevels(level => ({
   crit_chance_add: `${baseCritBuff + level * critScalar}%`
 }));
 
-console.log(allLevels);
+// console.log(allLevels);
 
 module.exports = allLevels;
