@@ -28,6 +28,6 @@ const double = {
   }
 };
 
-console.log([single, double]);
+// console.log([single, double]);
 
 module.exports = [single, double];
