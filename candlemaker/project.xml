@@ -6,15 +6,25 @@
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
 	<UpdateDetails>
-		Eerie Wax: Fix a bug with bleed / blight increase buffs
-		Localization: Fix tooltip for damage vs stealth
+		Embers:
+		 * Increased accuracy to 85% base
+		 * Now only has a base 50% chance per hit to apply Poised
+		 * Debuff chance for the damage reduction now scales with level
+		Eerie Wax:
+		 * Signifcantly increased damage bonus vs bleeding and blighted
+		 * Added increased crit chance vs bleeding or blighted
+		 * Increased base damage slightly
+		 * Increased base crit slightly
+		Mere Trickery:
+		 * Fixed a bug where level 4 gave 1700% accuracy instead of 17%
 	</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>11</VersionMinor>
+	<VersionMinor>12</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
+		<Tags>class</Tags>
 		<Tags>hero</Tags>
 		<Tags>candlemaker</Tags>
 		<Tags>torch dancing</Tags>
