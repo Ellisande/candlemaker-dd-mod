@@ -9,7 +9,7 @@ const base = {
   launch: "1234",
   target: "@1234",
   is_crit_valid: "True",
-  effect: ["'CM Torch Increase Minor 0'", "'CM Healdot 0'", "'CM Wild 0'"],
+  effect: ["'CM Torch Increase Minor 0'", "'CM Healdot 0'", "'CM Wild Single'"],
   is_stall_invalidating: "false"
 };
 

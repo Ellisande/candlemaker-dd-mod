@@ -13,7 +13,7 @@ const base = {
   effect: [
     "'CM Torch Increase Minor 0'",
     "'CM Mere Trickery Buff 0'",
-    "'CM Wild 0'"
+    "'CM Wild Single'"
   ],
   is_stall_invalidating: "false"
 };

@@ -1,7 +1,7 @@
 const { scaleJustNames } = require("./effectUtils");
 
 const single = {
-  name: "'CM Wild 0'",
+  name: "'CM Wild Single'",
   target: "'performer_group'",
   curio_result_type: "'positive'",
   chance: "100%",
