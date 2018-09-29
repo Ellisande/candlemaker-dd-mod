@@ -16,7 +16,7 @@ combat_skill: .id "embers" .icon "one" .anim "attack_melee" .fx "bloodlet" .targ
 combat_skill: .id "boogeymen" .icon "two" .anim "attack_skull" .fx "abyssal_artillery" .targfx "abyssal_artillery_target"
 combat_skill: .id "mere_trickery" .icon "three" .anim "attack_ranged" .fx "weakening_curse" .targchestfx "weakening_curse_target"
 combat_skill: .id "blazing_star" .icon "four" .anim "attack_heal" .fx "wyrd_reconstruction" .targfx "wyrd_reconstruction_target" .can_display_performer_selection_after_turn false
-combat_skill: .id "eerie_wax" .icon "five" .anim "attack_ranged" .fx "disruptive_curse" .targchestfx "disruptive_curse_target" .condensed_tooltip_effects true
+combat_skill: .id "eerie_wax" .icon "five" .anim "attack_ranged" .fx "disruptive_curse" .targchestfx "disruptive_curse_target" .condensed_tooltip_effects true .condensed_tooltip_effects_per_line 2
 combat_skill: .id "strike_match" .icon "six" .anim "attack_skull" .fx "abyssal_artillery" .targfx "hands_from_abyss_target"
 combat_skill: .id "snuff" .icon "seven" .anim "attack_ranged" .fx "weakening_curse" .targchestfx "daemons_pull_target"
 
