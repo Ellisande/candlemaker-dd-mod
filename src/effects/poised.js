@@ -48,6 +48,6 @@ const chanceLevels = generateLevels(level => ({
 }));
 
 // console.log(singleLevels);
-console.log(chanceLevels);
+// console.log(chanceLevels);
 
 module.exports = [...singleLevels, double, ...chanceLevels];
