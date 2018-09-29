@@ -1,6 +1,6 @@
 const poisedHealingReceived = require("./buffs/poisedHealingReceived");
-const wildDamageDecrease = require("./buffs/wildDamageDecrease");
-const wildDamageIncrease = require("./buffs/wildDamageIncrease");
+const wildMinDamageIncrease = require("./buffs/wildMinDamageIncrease");
+const wildMaxDamageIncrease = require("./buffs/wildMaxDamageIncrease");
 const disableHealingDebuff = require("./buffs/disableHealing");
 const stressDoneDebuff = require("./buffs/stressDisableDebuff");
 const accuracyBuff = require("./buffs/accuracyBuff");
@@ -10,8 +10,8 @@ const ignoreSealth = require("./buffs/ignoreStealth");
 
 module.exports = [
   ...poisedHealingReceived,
-  ...wildDamageDecrease,
-  ...wildDamageIncrease,
+  ...wildMinDamageIncrease,
+  ...wildMaxDamageIncrease,
   ...disableHealingDebuff,
   ...stressDoneDebuff,
   ...accuracyBuff,

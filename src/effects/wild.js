@@ -7,8 +7,8 @@ const single = {
   chance: "100%",
   duration: "2",
   buff_ids: [
-    "'WILD_DAMAGE_DONE_BUFF_SINGLE'",
-    "'WILD_MIN_DAMAGE_DONE_DEBUFF_SINGLE'"
+    "'WILD_MAX_DAMAGE_DONE_BUFF_SINGLE'",
+    "'WILD_MIN_DAMAGE_DONE_BUFF_SINGLE'"
   ],
   on_hit: "true",
   on_miss: "true",
@@ -22,8 +22,8 @@ const double = {
   chance: "100%",
   duration: "2",
   buff_ids: [
-    "'WILD_DAMAGE_DONE_BUFF_DOUBLE'",
-    "'WILD_MIN_DAMAGE_DONE_DEBUFF_DOUBLE'"
+    "'WILD_MAX_DAMAGE_DONE_BUFF_DOUBLE'",
+    "'WILD_MIN_DAMAGE_DONE_BUFF_DOUBLE'"
   ],
   on_hit: "true",
   on_miss: "true",

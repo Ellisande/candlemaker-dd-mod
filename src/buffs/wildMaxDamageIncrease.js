@@ -1,9 +1,9 @@
 const { generateLevels, nameScale } = require("../effects/effectUtils");
 const single = {
-  id: "WILD_DAMAGE_DONE_BUFF_SINGLE",
+  id: "WILD_MAX_DAMAGE_DONE_BUFF_SINGLE",
   stat_type: "combat_stat_multiply",
   stat_sub_type: "damage_high",
-  amount: 0.3,
+  amount: 0.2,
   duration: 2,
   remove_if_not_active: false,
   rule_type: "lightbelow",
@@ -15,10 +15,10 @@ const single = {
 };
 
 const double = {
-  id: "WILD_DAMAGE_DONE_BUFF_DOUBLE",
+  id: "WILD_MAX_DAMAGE_DONE_BUFF_DOUBLE",
   stat_type: "combat_stat_multiply",
   stat_sub_type: "damage_high",
-  amount: 0.6,
+  amount: 0.4,
   duration: 2,
   remove_if_not_active: false,
   rule_type: "lightbelow",
