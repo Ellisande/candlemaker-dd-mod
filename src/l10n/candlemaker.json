@@ -110,7 +110,11 @@
     "data": "\"The Endless Torch\""
   },
   {
-    "id": "buff_stat_tooltip_stress_dot_amount_received_percent",
-    "data": "%+d%% {colour_start|stress}Horror{colour_end} Stress"
+    "id": "effect_tooltip_clear_stress_dot",
+    "data": "Cure {colour_start|stress}Horror{colour_end}"
+  },
+  {
+    "id": "buff_rule_tooltip_target_is_stealthed",
+    "data": "vs {color_start|stealth}Stealthed{color_end}"
   }
 ]
