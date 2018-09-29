@@ -16,8 +16,7 @@ const base = {
   effect: [
     "'CM Blazing Torch 0'",
     "'CM Group Healdot 0'",
-    "'CM Wild Single'",
-    "'CM Wild Single'",
+    "'CM Wild Double'",
     "'Disable Healing Abilities'"
   ],
   is_stall_invalidating: "true"
