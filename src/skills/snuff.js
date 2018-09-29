@@ -12,8 +12,8 @@ const base = {
     "'Clearmark'",
     "'Stealth'",
     "'CM Dodge 0'",
-    "'CM Poised 0'",
-    "'CM Poised 0'"
+    "'CM Poised Single'",
+    "'CM Poised Single'"
   ],
   is_stall_invalidating: "false"
 };

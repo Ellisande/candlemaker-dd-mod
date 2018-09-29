@@ -14,7 +14,7 @@ const base = {
     "'CM Boogeymen Target Stress'",
     "'CM Boogeymen 0'",
     "'CM Boogeymen Pull'",
-    "'CM Poised 0'"
+    "'CM Poised Single'"
   ],
   is_stall_invalidating: "false"
 };

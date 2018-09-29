@@ -21,7 +21,7 @@ const base = {
     "'CM Blight Damage Increase 0'",
     "'CM Steal Bleed 0'",
     "'CM Steal Blight 0'",
-    "'CM Poised 0'"
+    "'CM Poised Single'"
   ],
   generation_guaranteed: "true"
 };

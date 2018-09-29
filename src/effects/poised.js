@@ -1,6 +1,6 @@
 const { scaleJustNames, nameScale, generateLevels } = require("./effectUtils");
 const single = {
-  name: "'CM Poised 0'",
+  name: "'CM Poised Single'",
   target: "'performer_group'",
   curio_result_type: "'positive'",
   chance: "100%",

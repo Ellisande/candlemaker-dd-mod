@@ -9,16 +9,16 @@ const base = {
   id: "'embers'",
   level: "0",
   type: "'ranged'",
-  atk: "40%",
+  atk: "85%",
   dmg: "-75%",
-  crit: "3%",
+  crit: "-5%",
   launch: "123",
   target: "~1234",
   is_crit_valid: "True",
   effect: [
     "'CM Torch Decrease Minor 0'",
     "'CM Damge Taken Debuff 0'",
-    "'CM Poised 0'"
+    "'CM Poised Single'"
   ],
   generation_guaranteed: "true"
 };
