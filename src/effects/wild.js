@@ -7,7 +7,7 @@ const single = {
   chance: "100%",
   duration: "2",
   buff_ids: [
-    "'WILD_DAMAGE_DONE_BUFF_0'",
+    "'WILD_DAMAGE_DONE_BUFF_SINGLE'",
     "'WILD_MIN_DAMAGE_DONE_DEBUFF_SINGLE'"
   ],
   on_hit: "true",

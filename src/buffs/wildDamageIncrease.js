@@ -1,6 +1,6 @@
 const { generateLevels, nameScale } = require("../effects/effectUtils");
 const single = {
-  id: "WILD_DAMAGE_DONE_BUFF_0",
+  id: "WILD_DAMAGE_DONE_BUFF_SINGLE",
   stat_type: "combat_stat_multiply",
   stat_sub_type: "damage_high",
   amount: 0.3,
