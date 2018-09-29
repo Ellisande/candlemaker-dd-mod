@@ -24,7 +24,7 @@ const allLevels = generateLevels(level => ({
   name: nameScale(base.name, level),
   damage_low_multiply: `${baseDamageBuff + level * damageScalar}%`,
   damage_high_multiply: `${baseDamageBuff + level * damageScalar}%`,
-  crit_chance_add: `${baseCritBuff + level * critScalar}`
+  crit_chance_add: `${baseCritBuff + level * critScalar}%`
 }));
 
 // console.log(allLevels);
