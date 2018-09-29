@@ -14,7 +14,7 @@ const base = {
 const allLevels = generateLevels(level => ({
   ...base,
   id: nameScale(base.id, level),
-  amount: level === 4 ? 17 : base.amount + level * 0.03
+  amount: level === 4 ? 0.17 : base.amount + level * 0.03
 }));
 
 // console.log(allLevels);
