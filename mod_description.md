@@ -44,7 +44,7 @@ Snuff is an effective way to get your hero out of harm's way. Stealthed units ca
 
 - Horrify target hero (3 stress per round / 3 rounds)
 - Push target forward 1 rank (can be resisted)
-- Increase target's damage by 60%-90% for 1 turn
+- Increase target's damage by 80%-100% for 1 turn
 - Decrease light
 - Granted 1 stack of Poised to the party
 
@@ -57,15 +57,24 @@ Boogeymen is best used to set up a huge damage turn for your team. Try using it 
 - Small damage to enemy units
 - Causes enemies hit to take increased damage for 2 rounds, does not stack
 - Decreases Light
-- Applies 1 stack of Poised per enemy hit
+- 50%-70% chance to apply Poised on each successful hit
 
 The Candlemaker snips the wick sending insidious embers into the enemy ranks.
 
 Embers is one of only 2 direct attacks that Candlemaker has. The debuff it applies is useful for maximizing the effects of Boogeymen and stacks of Wild. Although it has a low hit chance, each unit hit applies a stack of Poised allow you to set up for a massive healing turn if it hits multiple targets.
 
-#### Eerie Wax (Support Attack)
+#### Eerie Wax (Support Attack) (In Development)
 
-In development
+- Small Damage to 1 target
+- Transfer bleeds / blights from the target to the Candlemaker
+- 100% - 180% increased damage vs bleeding
+- 5% - 15% increased crit chance vs bleeding
+- 100% - 180% increased damage vs blighted
+- 5% - 15% increased crit chance vs blighted
+- Decrease torch by a small amount
+- Applies one stack of Poised to the pary
+
+The Candlemaker splashes the enemy with wax from her eerie candle. This grotesque goo drinks in blood and blight trapping it against the target.
 
 #### Strike Match (Single Target Heal)
 
@@ -92,11 +101,11 @@ Blazing star is a "big moment" heal. Healing the entire party over time when you
 
 #### Mere Trickery (Single Target Support Buff) (In Development)
 
-- Transfers horror from the party to the target hero
-- Decrease stress from horror by a large amount
-- Increase accuracy
-- Small increase to virtue chance
+- Reduces stress from horror by 100% (5 rounds)
+- Allows target to ignore stealth (2 rounds)
+- 50% increased damage against stealthed targets (2 rounds)
+- Small accuracy increase
 
 "The darkness holds much more than mere trickery". The Candlemaker raises her candle high filling the party with comfort and dispelling all the but the most frightening of horrors.
 
-Mere trickery allows you to greatly reduce the effects of horror on your team. It is situational but synergizes well with Boogeymen. The accuracy increase can also help units like Leper and Occultist be more reliable damage dealers in the end game. Be warned: if you let the stress reduction wear off before the horror you might have set your unit up for massive stress, particularly at low light levels
+Mere trickery is a way to get mitigate stealth. Not only does it allow a unit to ignore stealth, but increases their damage against stealthed targets. Since enemies with stealth tend to be hard to hit the accuracy increase synergizes well. The stress reduction from horror is very situational but can be great when used with Boogeymen or for specific events like Shieldbreaker nightmares.
