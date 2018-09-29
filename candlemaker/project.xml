@@ -5,11 +5,14 @@
 	<ModDataPath>C:/Users/Ellisande/dev/source/candlemaker-sim/candlemaker/</ModDataPath>
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
-	<UpdateDetails>Localization for reduce horror</UpdateDetails>
+	<UpdateDetails>
+		Mere Trickery: Now reduces all stress instead of just horror. Cures horror. Fixed tooltip for stealth damage buff.
+		Eerie Wax: Reworked. Now does a large amount of damage to bleeding / blighted targets, but steals the bleed/blight.
+	</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>8</VersionMinor>
+	<VersionMinor>9</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>hero</Tags>
