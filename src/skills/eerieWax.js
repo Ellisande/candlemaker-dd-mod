@@ -11,7 +11,7 @@ const base = {
   type: "'melee'",
   atk: "95%",
   dmg: "-40%",
-  crit: "5%",
+  crit: "3%",
   launch: "1234",
   target: "123",
   is_crit_valid: "True",
