@@ -6,18 +6,13 @@
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
 	<UpdateDetails>
-		Mere Trickery:
-		 * Remove accuracy buff
-		Eerie Wax:
-		 * Lower base crit chance
-		 * Set damage mods to be a static 230%
-		Embers:
-		 * Reduce base chance to hit
+		Art Update:
+		 * Replace ability icons with more appropriate ones from other classes
 	</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>16</VersionMinor>
+	<VersionMinor>17</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>class</Tags>
