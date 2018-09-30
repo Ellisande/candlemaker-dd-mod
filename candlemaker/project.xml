@@ -6,13 +6,12 @@
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
 	<UpdateDetails>
-		Art Update:
-		 * Replace ability icons with more appropriate ones from other classes
+		Fix an issue where the icons for Eerie Wax and Mere Trickery were swapped
 	</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>17</VersionMinor>
+	<VersionMinor>18</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>class</Tags>
