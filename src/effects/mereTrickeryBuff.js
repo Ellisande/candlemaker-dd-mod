@@ -10,7 +10,6 @@ const base = {
   clearDotStress: 1,
   buff_ids: [
     "'CM_STRESS_REDUCTION_BUFF_0'",
-    "'CM_ACC_BUFF_0'",
     "'CM_STEALTH_DAMAGE_BUFF_MIN'",
     "'CM_STEALTH_DAMAGE_BUFF_MAX'",
     "'CM_IGNORE_STEALTH_BUFF'"
