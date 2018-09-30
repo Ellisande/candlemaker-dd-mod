@@ -6,15 +6,18 @@
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
 	<UpdateDetails>
-		Wild:
-		* Remove min damage decrease
-		* Reduce max damage increase to 20%
-		* Increase min damage by 20%
+		Mere Trickery:
+		 * Remove accuracy buff
+		Eerie Wax:
+		 * Lower base crit chance
+		 * Set damage mods to be a static 230%
+		Embers:
+		 * Reduce base chance to hit
 	</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>15</VersionMinor>
+	<VersionMinor>16</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>class</Tags>
