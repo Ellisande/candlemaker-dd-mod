@@ -20,6 +20,7 @@ const stealBleed = require("./effects/stealBleed");
 const stealBlight = require("./effects/stealBlight");
 const blightDamageIncrease = require("./effects/blightDamageIncrease");
 const bleedDamageIncrease = require("./effects/bleedDamageIncrease");
+const increaseTorchBurn = require("./effects/increaseTorchBurn");
 
 const preDefinedEffects = [
   {
@@ -79,5 +80,6 @@ module.exports = [
   ...stealBleed,
   ...stealBlight,
   ...blightDamageIncrease,
-  ...bleedDamageIncrease
+  ...bleedDamageIncrease,
+  ...increaseTorchBurn
 ];
