@@ -18,13 +18,13 @@ effect: .name "CM Group Healdot 1" .target "performer_group" .curio_result_type 
 effect: .name "CM Group Healdot 2" .target "performer_group" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 2 .on_hit true .on_miss false
 effect: .name "CM Group Healdot 3" .target "performer_group" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 2 .on_hit true .on_miss false
 effect: .name "CM Group Healdot 4" .target "performer_group" .curio_result_type "positive" .chance 100% .dotHpHeal 4 .duration 2 .on_hit true .on_miss false
-effect: .name "CM Poised Single" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_SINGLE" .on_hit true .on_miss false .apply_once false .queue true
-effect: .name "CM Poised Double" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_DOUBLE" .on_hit true .on_miss false .apply_once false .queue true
-effect: .name "CM Poised Chance 0" .target "performer_group" .curio_result_type "positive" .chance 50% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_SINGLE" .on_hit true .on_miss false .apply_once false .queue true
-effect: .name "CM Poised Chance 1" .target "performer_group" .curio_result_type "positive" .chance 55% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_SINGLE" .on_hit true .on_miss false .apply_once false .queue true
-effect: .name "CM Poised Chance 2" .target "performer_group" .curio_result_type "positive" .chance 60% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_SINGLE" .on_hit true .on_miss false .apply_once false .queue true
-effect: .name "CM Poised Chance 3" .target "performer_group" .curio_result_type "positive" .chance 65% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_SINGLE" .on_hit true .on_miss false .apply_once false .queue true
-effect: .name "CM Poised Chance 4" .target "performer_group" .curio_result_type "positive" .chance 70% .duration 3 .buff_ids "POISED_HEALING_TAKEN_BUFF_SINGLE" .on_hit true .on_miss false .apply_once false .queue true
+effect: .name "CM Poised Single" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 2 .buff_ids "POISED_HEALING_TAKEN_BUFF_SINGLE" .on_hit true .on_miss false .apply_once false .queue true
+effect: .name "CM Poised Double" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 2 .buff_ids "POISED_HEALING_TAKEN_BUFF_DOUBLE" .on_hit true .on_miss false .apply_once false .queue true
+effect: .name "CM Poised Chance 0" .target "performer_group" .curio_result_type "positive" .chance 50% .duration 2 .buff_ids "POISED_HEALING_TAKEN_BUFF_SINGLE" .on_hit true .on_miss false .apply_once false .queue true
+effect: .name "CM Poised Chance 1" .target "performer_group" .curio_result_type "positive" .chance 55% .duration 2 .buff_ids "POISED_HEALING_TAKEN_BUFF_SINGLE" .on_hit true .on_miss false .apply_once false .queue true
+effect: .name "CM Poised Chance 2" .target "performer_group" .curio_result_type "positive" .chance 60% .duration 2 .buff_ids "POISED_HEALING_TAKEN_BUFF_SINGLE" .on_hit true .on_miss false .apply_once false .queue true
+effect: .name "CM Poised Chance 3" .target "performer_group" .curio_result_type "positive" .chance 65% .duration 2 .buff_ids "POISED_HEALING_TAKEN_BUFF_SINGLE" .on_hit true .on_miss false .apply_once false .queue true
+effect: .name "CM Poised Chance 4" .target "performer_group" .curio_result_type "positive" .chance 70% .duration 2 .buff_ids "POISED_HEALING_TAKEN_BUFF_SINGLE" .on_hit true .on_miss false .apply_once false .queue true
 effect: .name "CM Healdot 0" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 2 .on_hit true .on_miss true
 effect: .name "CM Healdot 1" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 3 .duration 2 .on_hit true .on_miss true
 effect: .name "CM Healdot 2" .target "target" .curio_result_type "positive" .chance 100% .dotHpHeal 2 .duration 3 .on_hit true .on_miss true

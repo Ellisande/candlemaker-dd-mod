@@ -6,12 +6,20 @@
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
 	<UpdateDetails>
-		Try a new tooltip for torch burn to see if it avoid a game crash
+		Blazing Star:
+			* Update the torch burn tooltip to be `150% faster Torch burn`
+		Poised:
+			* Reduced the effect of poised from 25% to 20%
+			* Reduced the duration of poised from 3 rounds to 2 rounds
+		Wax Coating:
+			* New camping skill 2 repsite other single party member
+			* Adds a chance to blight on hit
+			* Last 4 battles
 	</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>23</VersionMinor>
+	<VersionMinor>24</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>class</Tags>
