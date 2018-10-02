@@ -6,23 +6,14 @@
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
 	<UpdateDetails>
-		Mere Trickery:
-			* Reduce the damage vs stealth to 20%
-		Blazing Star:
-			* Fix tooltip for torch burn
-		Wax Coating:
-			* New camping skill costs 3 respite
-			* One unit, not Candlemaker
-			* Adds 1 bleed / 2 rounds chance to attacks (4 battles)
-			* Adds 1 blight / 2 rounds chance to attack (4 battles)
-		Sixteen Candles:
-			* New camping skill costs 2 respite
-			* Creates 16 torches
+		Removed the two new camping skills to fix a crashing bug
+		Wax Coating: Removed
+		Sixteen Candles: Removed
 	</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>20</VersionMinor>
+	<VersionMinor>21</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>class</Tags>

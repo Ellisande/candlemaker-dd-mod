@@ -6,7 +6,10 @@ const allSkills = {
   configuration: {
     class_specific_number_of_classes_threshold: 4
   },
-  skills: [...sharedSkills, ...waxCoating, ...sixteenCandles]
+  skills: [
+    ...sharedSkills
+    // ...waxCoating, ...sixteenCandles
+  ]
 };
 
 // console.log(allSkills);
