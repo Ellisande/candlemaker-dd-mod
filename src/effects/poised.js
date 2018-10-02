@@ -31,7 +31,7 @@ const chance = {
   target: "'performer_group'",
   curio_result_type: "'positive'",
   chance: `${baseChance}%`,
-  duration: "3",
+  duration: "2",
   buff_ids: "'POISED_HEALING_TAKEN_BUFF_SINGLE'",
   on_hit: "true",
   on_miss: "false",
