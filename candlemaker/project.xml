@@ -6,12 +6,17 @@
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
 	<UpdateDetails>
-		Fix an issue where the icons for Eerie Wax and Mere Trickery were swapped
+		Blazing Star:
+			* Reduce the single target healing to bring it in line with Vestal group heal
+			* Increases torch burn by 100%
+		Strike Match:
+			* Reduce the single target healing
+			* Reduce the heal over time of rank 3
 	</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>18</VersionMinor>
+	<VersionMinor>19</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>class</Tags>
