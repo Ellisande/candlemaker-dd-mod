@@ -7,8 +7,9 @@ const allSkills = {
     class_specific_number_of_classes_threshold: 4
   },
   skills: [
-    ...sharedSkills
-    // ...waxCoating, ...sixteenCandles
+    ...sharedSkills,
+    ...waxCoating
+    // ...sixteenCandles
   ]
 };
 
