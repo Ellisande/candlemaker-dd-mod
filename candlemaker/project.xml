@@ -6,12 +6,12 @@
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
 	<UpdateDetails>
-		Remove tooltip for torch burn to see if it fixes a crashing bug
+		Try a new tooltip for torch burn to see if it avoid a game crash
 	</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>22</VersionMinor>
+	<VersionMinor>23</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>class</Tags>

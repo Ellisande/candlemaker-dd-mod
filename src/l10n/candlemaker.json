@@ -116,5 +116,9 @@
   {
     "id": "buff_rule_tooltip_target_is_stealthed",
     "data": "%s vs. {colour_start|stealth}Stealthed{colour_end}"
+  },
+  {
+    "id": "buff_stat_tooltip_torchlight_burn_percent",
+    "data": "-%d faster torch burn"
   }
 ]
