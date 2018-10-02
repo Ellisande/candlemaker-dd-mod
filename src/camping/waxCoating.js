@@ -11,8 +11,8 @@ const waxCoating = {
         code: "a",
         amount: 1
       },
-      type: "effect",
-      sub_type: "Euclidean Hilt Blight",
+      type: "buff",
+      sub_type: "CAMPING_BLEED_BUFF",
       amount: 1
     }
   ],
