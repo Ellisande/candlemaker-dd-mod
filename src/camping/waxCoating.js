@@ -30,3 +30,5 @@ const waxCoating = {
     }
   ]
 };
+
+module.exports = [waxCoating];
