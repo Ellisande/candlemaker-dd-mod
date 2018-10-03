@@ -13,7 +13,7 @@ const flickering = {
       },
       type: "buff",
       sub_type: "CAMPING_POISED_HEALING_TAKEN_BUFF_SINGLE",
-      amount: 1
+      amount: 0.2
     },
     {
       selection: "party_other",
@@ -24,7 +24,7 @@ const flickering = {
       },
       type: "buff",
       sub_type: "CAMPING_WILD_MAX_DAMAGE_DONE_BUFF_SINGLE",
-      amount: 1
+      amount: 0.2
     },
     {
       selection: "party_other",
@@ -35,7 +35,7 @@ const flickering = {
       },
       type: "buff",
       sub_type: "CAMPING_WILD_MIN_DAMAGE_DONE_BUFF_SINGLE",
-      amount: 1
+      amount: 0.2
     }
   ],
   hero_classes: ["candlemaker"],
