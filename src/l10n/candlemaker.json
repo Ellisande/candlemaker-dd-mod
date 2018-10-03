@@ -120,5 +120,9 @@
   {
     "id": "buff_stat_tooltip_torchlight_burn_percent",
     "data": "%d%% faster Torch burn"
+  },
+  {
+    "id": "camping_skill_name_wax_coating",
+    "data": "Wax Coating (In Development)"
   }
 ]
