@@ -7,15 +7,14 @@
 	<Language>english</Language>
 	<UpdateDetails>
 		Blazing Star:
-			* Try updating the tooltip again
-		Wax Coating: (in development)
-			* Add an icon for wax coating
-			* Try a different buff for wax coating
+			* Greatly increase torch burn +150% burn rate didn't seem to do much
+		Wax Coating:
+			* Try another avenue for adding poison or bleed to attacks
 	</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>25</VersionMinor>
+	<VersionMinor>26</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>class</Tags>
