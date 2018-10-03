@@ -13,7 +13,7 @@ const waxCoating = {
       },
       type: "buff",
       sub_type: "CAMPING_CM_PROTECTION_INCREASE",
-      amount: 1
+      amount: 0.1
     },
     {
       selection: "party_other",
