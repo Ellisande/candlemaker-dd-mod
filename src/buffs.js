@@ -8,6 +8,8 @@ const stressReduction = require("./buffs/stressReduction");
 const stealthDamageBuff = require("./buffs/stealthDamageBuff");
 const ignoreSealth = require("./buffs/ignoreStealth");
 const campingBleedBuff = require("./buffs/campingBleedBuff");
+const protectionIncrease = require("./buffs/protectionIncrease");
+const stealBuffsFromAttacker = require("./buffs/stealBuffsFromAttacker");
 
 module.exports = [
   ...poisedHealingReceived,
@@ -19,5 +21,7 @@ module.exports = [
   ...stressReduction,
   ...stealthDamageBuff,
   ...ignoreSealth,
-  ...campingBleedBuff
+  ...campingBleedBuff,
+  ...protectionIncrease,
+  ...stealBuffsFromAttacker
 ];
