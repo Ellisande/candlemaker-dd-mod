@@ -7,19 +7,15 @@
 	<Language>english</Language>
 	<UpdateDetails>
 		Blazing Star:
-			* Update the torch burn tooltip to be `150% faster Torch burn`
-		Poised:
-			* Reduced the effect of poised from 25% to 20%
-			* Reduced the duration of poised from 3 rounds to 2 rounds
-		Wax Coating:
-			* New camping skill 2 repsite other single party member
-			* Adds a chance to blight on hit
-			* Last 4 battles
+			* Try updating the tooltip again
+		Wax Coating: (in development)
+			* Add an icon for wax coating
+			* Try a different buff for wax coating
 	</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>24</VersionMinor>
+	<VersionMinor>25</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>class</Tags>
