@@ -6,15 +6,26 @@
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
 	<UpdateDetails>
-		Blazing Star:
-			* Greatly increase torch burn +150% burn rate didn't seem to do much
-		Wax Coating:
-			* Try another avenue for adding poison or bleed to attacks
+		Wax Coating: 
+		 * Reworked
+		 * Steals buffs from attackers when hit
+		 * Provides 10% protection
+		Sixteen Candles:
+		 * New camping ability
+		 * Costs 3 repsite
+		 * Generates 16 torches
+		Flickering Light:
+		 * New camping ability
+		 * Costs 2 repsite
+		 * Targets one other party member
+		 * Increases healing received by 20% when above 49 light
+		 * Increases damage dealt by 20% when below 51 light
+		 * Lasts for 4 battles
 	</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>26</VersionMinor>
+	<VersionMinor>27</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>class</Tags>
