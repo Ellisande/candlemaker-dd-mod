@@ -11,8 +11,19 @@ const waxCoating = {
         code: "a",
         amount: 1
       },
-      type: "effect",
-      sub_type: "Euclidean Hilt Blight",
+      type: "buff",
+      sub_type: "CAMPING_CM_PROTECTION_INCREASE",
+      amount: 1
+    },
+    {
+      selection: "party_other",
+      requirements: [],
+      chance: {
+        code: "b",
+        amount: 1
+      },
+      type: "buff",
+      sub_type: "CAMPING_CM_STEAL_BUFFS",
       amount: 1
     }
   ],
