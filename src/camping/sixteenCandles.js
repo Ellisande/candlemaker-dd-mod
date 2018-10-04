@@ -9,7 +9,7 @@ const sixteenCandles = {
       requirements: [],
       chance: { code: "a", amount: 1.0 },
       type: "loot",
-      sub_type: "TORCHONLY",
+      sub_type: "SIXTEEN_TORCHES",
       amount: 16
     }
   ],
