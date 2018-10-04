@@ -5,7 +5,7 @@ const waxCoating = {
   use_limit: 1,
   effects: [
     {
-      selection: "party_other",
+      selection: "individual",
       requirements: [],
       chance: {
         code: "a",
