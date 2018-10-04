@@ -5,7 +5,7 @@ const flickering = {
   use_limit: 1,
   effects: [
     {
-      selection: "party_other",
+      selection: "individual",
       requirements: [],
       chance: {
         code: "a",
@@ -16,7 +16,7 @@ const flickering = {
       amount: 0.2
     },
     {
-      selection: "party_other",
+      selection: "individual",
       requirements: [],
       chance: {
         code: "b",
@@ -27,7 +27,7 @@ const flickering = {
       amount: 0.2
     },
     {
-      selection: "party_other",
+      selection: "individual",
       requirements: [],
       chance: {
         code: "c",
