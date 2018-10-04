@@ -7,25 +7,20 @@
 	<Language>english</Language>
 	<UpdateDetails>
 		Wax Coating: 
-		 * Reworked
-		 * Steals buffs from attackers when hit
-		 * Provides 10% protection
+		 * Reduce protection provided to 10%
+		 * Added localization string for steal buffs from attackers effect
 		Sixteen Candles:
-		 * New camping ability
-		 * Costs 3 repsite
-		 * Generates 16 torches
+		 * Change loot table
+		 * Added localization string for skill name
 		Flickering Light:
-		 * New camping ability
-		 * Costs 2 repsite
-		 * Targets one other party member
-		 * Increases healing received by 20% when above 49 light
-		 * Increases damage dealt by 20% when below 51 light
-		 * Lasts for 4 battles
+		 * Reduce the amount of healing received and damage done to 20% instead of 100%
+		 * Added localization string for skill name
+
 	</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>27</VersionMinor>
+	<VersionMinor>28</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>class</Tags>
