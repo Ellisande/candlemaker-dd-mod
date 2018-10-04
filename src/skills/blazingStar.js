@@ -23,7 +23,8 @@ const base = {
   self_target_valid: "true",
   launch: "432",
   target: "@1234",
-  is_crit_valid: "True",
+  is_crit_valid: "false",
+  can_crit_heal: "false",
   effect: [
     "'CM Blazing Torch 0'",
     "'CM Group Healdot 0'",
