@@ -1,4 +1,4 @@
-const { scaleJustNames, nameScale, generateLevels } = require("./effectUtils");
+const { nameScale, generateLevels } = require("./effectUtils");
 const single = {
   name: "'CM Poised Single'",
   target: "'performer_group'",
@@ -25,7 +25,7 @@ const double = {
   queue: "true"
 };
 
-const baseChance = 50;
+const baseChance = 40;
 const chance = {
   name: "'CM Poised Chance 0'",
   target: "'performer_group'",
