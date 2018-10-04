@@ -7,25 +7,14 @@
 	<Language>english</Language>
 	<UpdateDetails>
 		Wax Coating: 
-		 * Now targets only one unit
-		Flickering Light:
-		 * Now targets only one unit
-		Eerie Wax:
-		 * Allow bleed / blight to be stolen if the attack kills
+		 * Steal buff now effects only the targetted unit
 		Embers:
-		 * Reduced damage done to 10%
 		 * Adds -10% prot debuff
-		 * Reduce direct damage
-		 * Reduced base chance to apply Poised
-		Blazing Star:
-		 * Can no longer crit direct heals
-		Weapons:
-		 * Reduced crit chance by 2% across the board
 	</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>29</VersionMinor>
+	<VersionMinor>30</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>class</Tags>
