@@ -16,7 +16,7 @@ const waxCoating = {
       amount: 0.1
     },
     {
-      selection: "party_other",
+      selection: "individual",
       requirements: [],
       chance: {
         code: "b",
