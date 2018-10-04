@@ -6,7 +6,8 @@ const base = {
   curio_result_type: "'negative'",
   chance: "100%",
   duration: "2",
-  protection_rating_add: -0.1,
+  combat_stat_buff: "1",
+  protection_rating_add: "-10%",
   on_hit: "true",
   on_miss: "true",
   apply_once: "false"
