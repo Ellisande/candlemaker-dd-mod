@@ -124,5 +124,17 @@
   {
     "id": "camping_skill_name_wax_coating",
     "data": "Wax Coating (In Development)"
+  },
+  {
+    "id": "camping_skill_name_sixteen_candles",
+    "data": "Sixteen Candles (In Development)"
+  },
+  {
+    "id": "camping_skill_name_flickering_light",
+    "data": "Flickering Light (In Development)"
+  },
+  {
+    "id": "buff_stat_tooltip_transfer_buff_from_attacker_chance",
+    "data": "Steal buffs when hit"
   }
 ]
