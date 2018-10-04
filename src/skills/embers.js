@@ -10,7 +10,7 @@ const base = {
   level: "0",
   type: "'ranged'",
   atk: "80%",
-  dmg: "-75%",
+  dmg: "-85%",
   crit: "-5%",
   launch: "123",
   target: "~1234",
@@ -18,6 +18,7 @@ const base = {
   effect: [
     "'CM Torch Decrease Minor 0'",
     "'CM Damge Taken Debuff 0'",
+    "'CM Protection Decrease 0'",
     "'CM Poised Chance 0'"
   ],
   generation_guaranteed: "true"
