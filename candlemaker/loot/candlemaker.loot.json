@@ -1,0 +1,16 @@
+{
+  "loot_tables": [
+    {
+      "id": "SIXTEEN_TORCHES",
+      "difficulty": 0,
+      "dungeon": "",
+      "entries": [
+        {
+          "type": "item",
+          "chances": 1,
+          "data": { "type": "supply", "id": "torch", "amount": 16 }
+        }
+      ]
+    }
+  ]
+}
