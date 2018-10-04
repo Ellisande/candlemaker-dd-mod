@@ -7,7 +7,7 @@ const base = {
   chance: "100%",
   duration: "2",
   buff_type: "damage_received_percent",
-  buff_amount: "30%",
+  buff_amount: "10%",
   on_hit: "true",
   on_miss: "false"
 };
