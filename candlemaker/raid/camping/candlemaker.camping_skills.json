@@ -21,7 +21,9 @@
           "amount": 15
         }
       ],
-      "hero_classes": ["candlemaker"],
+      "hero_classes": [
+        "candlemaker"
+      ],
       "upgrade_requirements": [
         {
           "code": "0",
@@ -75,7 +77,9 @@
           "amount": 0
         }
       ],
-      "hero_classes": ["candlemaker"],
+      "hero_classes": [
+        "candlemaker"
+      ],
       "upgrade_requirements": [
         {
           "code": "0",
@@ -107,7 +111,9 @@
           "amount": -0.15
         }
       ],
-      "hero_classes": ["candlemaker"],
+      "hero_classes": [
+        "candlemaker"
+      ],
       "upgrade_requirements": [
         {
           "code": "0",
@@ -128,7 +134,7 @@
       "use_limit": 1,
       "effects": [
         {
-          "selection": "party_other",
+          "selection": "individual",
           "requirements": [],
           "chance": {
             "code": "a",
@@ -150,7 +156,9 @@
           "amount": 1
         }
       ],
-      "hero_classes": ["candlemaker"],
+      "hero_classes": [
+        "candlemaker"
+      ],
       "upgrade_requirements": [
         {
           "code": "0",
@@ -182,7 +190,9 @@
           "amount": 16
         }
       ],
-      "hero_classes": ["candlemaker"],
+      "hero_classes": [
+        "candlemaker"
+      ],
       "upgrade_requirements": [
         {
           "code": "0",
@@ -203,7 +213,7 @@
       "use_limit": 1,
       "effects": [
         {
-          "selection": "party_other",
+          "selection": "individual",
           "requirements": [],
           "chance": {
             "code": "a",
@@ -214,7 +224,7 @@
           "amount": 0.2
         },
         {
-          "selection": "party_other",
+          "selection": "individual",
           "requirements": [],
           "chance": {
             "code": "b",
@@ -225,7 +235,7 @@
           "amount": 0.2
         },
         {
-          "selection": "party_other",
+          "selection": "individual",
           "requirements": [],
           "chance": {
             "code": "c",
@@ -236,7 +246,9 @@
           "amount": 0.2
         }
       ],
-      "hero_classes": ["candlemaker"],
+      "hero_classes": [
+        "candlemaker"
+      ],
       "upgrade_requirements": [
         {
           "code": "0",

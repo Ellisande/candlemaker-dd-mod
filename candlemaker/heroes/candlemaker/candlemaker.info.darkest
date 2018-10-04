@@ -1,21 +1,21 @@
 resistances: .stun 20% .poison 30% .bleed 40% .disease 40% .move 20% .debuff 60% .death_blow 67% .trap 10%
 crit: .effects "on_crit_healdone"
-weapon: .name "candlemaker_weapon_0" .atk 0% .dmg 4 7 .crit 6% .spd 6
-weapon: .name "candlemaker_weapon_1" .atk 0% .dmg 5 8 .crit 7% .spd 6 .upgradeRequirementCode 0
-weapon: .name "candlemaker_weapon_2" .atk 0% .dmg 6 10 .crit 8% .spd 7 .upgradeRequirementCode 1
-weapon: .name "candlemaker_weapon_3" .atk 0% .dmg 6 11 .crit 9% .spd 7 .upgradeRequirementCode 2
-weapon: .name "candlemaker_weapon_4" .atk 0% .dmg 7 13 .crit 10% .spd 8 .upgradeRequirementCode 3
+weapon: .name "candlemaker_weapon_0" .atk 0% .dmg 4 7 .crit 4% .spd 6
+weapon: .name "candlemaker_weapon_1" .atk 0% .dmg 5 8 .crit 5% .spd 6 .upgradeRequirementCode 0
+weapon: .name "candlemaker_weapon_2" .atk 0% .dmg 6 10 .crit 6% .spd 7 .upgradeRequirementCode 1
+weapon: .name "candlemaker_weapon_3" .atk 0% .dmg 6 11 .crit 7% .spd 7 .upgradeRequirementCode 2
+weapon: .name "candlemaker_weapon_4" .atk 0% .dmg 7 13 .crit 8% .spd 8 .upgradeRequirementCode 3
 armour: .name "candlemaker_armour_0" .def 10% .prot 0 .hp 19 .spd 0
 armour: .name "candlemaker_armour_1" .def 15% .prot 0 .hp 23 .spd 0 .upgradeRequirementCode 0
 armour: .name "candlemaker_armour_2" .def 20% .prot 0 .hp 27 .spd 0 .upgradeRequirementCode 1
 armour: .name "candlemaker_armour_3" .def 25% .prot 0 .hp 31 .spd 0 .upgradeRequirementCode 2
 armour: .name "candlemaker_armour_4" .def 30% .prot 0 .hp 35 .spd 0 .upgradeRequirementCode 3
 combat_move_skill: .id "move" .level 0 .type "move" .move 2 2 .launch 4321
-combat_skill: .id "embers" .level 0 .type "ranged" .atk 80% .dmg -75% .crit -5% .launch 123 .target ~1234 .is_crit_valid True .effect "CM Torch Decrease Minor 0" "CM Damge Taken Debuff 0" "CM Poised Chance 0" .generation_guaranteed true
-combat_skill: .id "embers" .level 1 .type "ranged" .atk 85% .dmg -75% .crit -4% .launch 123 .target ~1234 .is_crit_valid True .effect "CM Torch Decrease Minor 1" "CM Damge Taken Debuff 1" "CM Poised Chance 1" .generation_guaranteed false
-combat_skill: .id "embers" .level 2 .type "ranged" .atk 90% .dmg -75% .crit -3% .launch 123 .target ~1234 .is_crit_valid True .effect "CM Torch Decrease Minor 2" "CM Damge Taken Debuff 2" "CM Poised Chance 2" .generation_guaranteed false
-combat_skill: .id "embers" .level 3 .type "ranged" .atk 95% .dmg -75% .crit -2% .launch 123 .target ~1234 .is_crit_valid True .effect "CM Torch Decrease Minor 3" "CM Damge Taken Debuff 3" "CM Poised Chance 3" .generation_guaranteed false
-combat_skill: .id "embers" .level 4 .type "ranged" .atk 100% .dmg -75% .crit -1% .launch 123 .target ~1234 .is_crit_valid True .effect "CM Torch Decrease Minor 4" "CM Damge Taken Debuff 4" "CM Poised Chance 4" .generation_guaranteed false
+combat_skill: .id "embers" .level 0 .type "ranged" .atk 80% .dmg -85% .crit -5% .launch 123 .target ~1234 .is_crit_valid True .effect "CM Torch Decrease Minor 0" "CM Damge Taken Debuff 0" "CM Protection Decrease 0" "CM Poised Chance 0" .generation_guaranteed true
+combat_skill: .id "embers" .level 1 .type "ranged" .atk 85% .dmg -85% .crit -4% .launch 123 .target ~1234 .is_crit_valid True .effect "CM Torch Decrease Minor 1" "CM Damge Taken Debuff 1" "CM Protection Decrease 1" "CM Poised Chance 1" .generation_guaranteed false
+combat_skill: .id "embers" .level 2 .type "ranged" .atk 90% .dmg -85% .crit -3% .launch 123 .target ~1234 .is_crit_valid True .effect "CM Torch Decrease Minor 2" "CM Damge Taken Debuff 2" "CM Protection Decrease 2" "CM Poised Chance 2" .generation_guaranteed false
+combat_skill: .id "embers" .level 3 .type "ranged" .atk 95% .dmg -85% .crit -2% .launch 123 .target ~1234 .is_crit_valid True .effect "CM Torch Decrease Minor 3" "CM Damge Taken Debuff 3" "CM Protection Decrease 3" "CM Poised Chance 3" .generation_guaranteed false
+combat_skill: .id "embers" .level 4 .type "ranged" .atk 100% .dmg -85% .crit -1% .launch 123 .target ~1234 .is_crit_valid True .effect "CM Torch Decrease Minor 4" "CM Damge Taken Debuff 4" "CM Protection Decrease 4" "CM Poised Chance 4" .generation_guaranteed false
 combat_skill: .id "snuff" .level 0 .self_target_valid false .launch 234 .target @1234 .is_crit_valid False .effect "CM Snuff Torch 0" "Clearmark" "Stealth" "CM Dodge 0" "CM Poised Double" .is_stall_invalidating false
 combat_skill: .id "snuff" .level 1 .self_target_valid false .launch 234 .target @1234 .is_crit_valid False .effect "CM Snuff Torch 1" "Clearmark" "Stealth" "CM Dodge 1" "CM Poised Double" .is_stall_invalidating false
 combat_skill: .id "snuff" .level 2 .self_target_valid false .launch 234 .target @1234 .is_crit_valid False .effect "CM Snuff Torch 2" "Clearmark" "Stealth" "CM Dodge 2" "CM Poised Double" .is_stall_invalidating false
@@ -26,11 +26,11 @@ combat_skill: .id "strike_match" .level 1 .type "melee" .heal 0 0 .self_target_v
 combat_skill: .id "strike_match" .level 2 .type "melee" .heal 0 0 .self_target_valid true .launch 1234 .target @1234 .is_crit_valid True .effect "CM Torch Increase Minor 2" "CM Healdot 2" "CM Wild Single" .is_stall_invalidating false
 combat_skill: .id "strike_match" .level 3 .type "melee" .heal 0 1 .self_target_valid true .launch 1234 .target @1234 .is_crit_valid True .effect "CM Torch Increase Minor 3" "CM Healdot 3" "CM Wild Single" .is_stall_invalidating false
 combat_skill: .id "strike_match" .level 4 .type "melee" .heal 0 1 .self_target_valid true .launch 1234 .target @1234 .is_crit_valid True .effect "CM Torch Increase Minor 4" "CM Healdot 4" "CM Wild Single" .is_stall_invalidating false
-combat_skill: .id "blazing_star" .level 0 .heal 0 2 .crit 5% .self_target_valid true .launch 432 .target @1234 .is_crit_valid True .effect "CM Blazing Torch 0" "CM Group Healdot 0" "CM Wild Double" "Disable Healing Abilities" "Increase Torch Burn" .is_stall_invalidating true
-combat_skill: .id "blazing_star" .level 1 .heal 1 3 .crit 6% .self_target_valid true .launch 432 .target @1234 .is_crit_valid True .effect "CM Blazing Torch 1" "CM Group Healdot 1" "CM Wild Double" "Disable Healing Abilities" "Increase Torch Burn" .is_stall_invalidating true
-combat_skill: .id "blazing_star" .level 2 .heal 1 3 .crit 7% .self_target_valid true .launch 432 .target @1234 .is_crit_valid True .effect "CM Blazing Torch 2" "CM Group Healdot 2" "CM Wild Double" "Disable Healing Abilities" "Increase Torch Burn" .is_stall_invalidating true
-combat_skill: .id "blazing_star" .level 3 .heal 2 4 .crit 8% .self_target_valid true .launch 432 .target @1234 .is_crit_valid True .effect "CM Blazing Torch 3" "CM Group Healdot 3" "CM Wild Double" "Disable Healing Abilities" "Increase Torch Burn" .is_stall_invalidating true
-combat_skill: .id "blazing_star" .level 4 .heal 2 4 .crit 9% .self_target_valid true .launch 432 .target @1234 .is_crit_valid True .effect "CM Blazing Torch 4" "CM Group Healdot 4" "CM Wild Double" "Disable Healing Abilities" "Increase Torch Burn" .is_stall_invalidating true
+combat_skill: .id "blazing_star" .level 0 .heal 0 2 .crit 5% .self_target_valid true .launch 432 .target @1234 .is_crit_valid false .can_crit_heal false .effect "CM Blazing Torch 0" "CM Group Healdot 0" "CM Wild Double" "Disable Healing Abilities" "Increase Torch Burn" .is_stall_invalidating true
+combat_skill: .id "blazing_star" .level 1 .heal 1 3 .crit 6% .self_target_valid true .launch 432 .target @1234 .is_crit_valid false .can_crit_heal false .effect "CM Blazing Torch 1" "CM Group Healdot 1" "CM Wild Double" "Disable Healing Abilities" "Increase Torch Burn" .is_stall_invalidating true
+combat_skill: .id "blazing_star" .level 2 .heal 1 3 .crit 7% .self_target_valid true .launch 432 .target @1234 .is_crit_valid false .can_crit_heal false .effect "CM Blazing Torch 2" "CM Group Healdot 2" "CM Wild Double" "Disable Healing Abilities" "Increase Torch Burn" .is_stall_invalidating true
+combat_skill: .id "blazing_star" .level 3 .heal 2 4 .crit 8% .self_target_valid true .launch 432 .target @1234 .is_crit_valid false .can_crit_heal false .effect "CM Blazing Torch 3" "CM Group Healdot 3" "CM Wild Double" "Disable Healing Abilities" "Increase Torch Burn" .is_stall_invalidating true
+combat_skill: .id "blazing_star" .level 4 .heal 2 4 .crit 9% .self_target_valid true .launch 432 .target @1234 .is_crit_valid false .can_crit_heal false .effect "CM Blazing Torch 4" "CM Group Healdot 4" "CM Wild Double" "Disable Healing Abilities" "Increase Torch Burn" .is_stall_invalidating true
 combat_skill: .id "mere_trickery" .level 0 .type  .atk 0% .crit 0% .launch 1234 .target @1234 .is_crit_valid False .per_battle_limit 3 .effect "CM Torch Increase Minor 0" "CM Mere Trickery Buff 0" "CM Wild Single" .is_stall_invalidating false
 combat_skill: .id "mere_trickery" .level 1 .type  .atk 0% .crit 0% .launch 1234 .target @1234 .is_crit_valid False .per_battle_limit 3 .effect "CM Torch Increase Minor 1" "CM Mere Trickery Buff 1" "CM Wild Single" .is_stall_invalidating false
 combat_skill: .id "mere_trickery" .level 2 .type  .atk 0% .crit 0% .launch 1234 .target @1234 .is_crit_valid False .per_battle_limit 3 .effect "CM Torch Increase Minor 2" "CM Mere Trickery Buff 2" "CM Wild Single" .is_stall_invalidating false
