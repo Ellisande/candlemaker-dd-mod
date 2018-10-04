@@ -8,6 +8,8 @@ const base = {
   on_hit: "true",
   on_miss: "false",
   apply_once: "true",
+  can_apply_on_death: "true",
+  queue: "true",
   steal_buff_stat_type: "'hp_dot_bleed'"
 };
 
