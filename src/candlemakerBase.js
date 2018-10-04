@@ -1,11 +1,11 @@
 const template = skills =>
   `resistances: .stun 20% .poison 30% .bleed 40% .disease 40% .move 20% .debuff 60% .death_blow 67% .trap 10%
 crit: .effects "on_crit_healdone"
-weapon: .name "candlemaker_weapon_0" .atk 0% .dmg 4 7 .crit 6% .spd 6
-weapon: .name "candlemaker_weapon_1" .atk 0% .dmg 5 8 .crit 7% .spd 6 .upgradeRequirementCode 0
-weapon: .name "candlemaker_weapon_2" .atk 0% .dmg 6 10 .crit 8% .spd 7 .upgradeRequirementCode 1
-weapon: .name "candlemaker_weapon_3" .atk 0% .dmg 6 11 .crit 9% .spd 7 .upgradeRequirementCode 2
-weapon: .name "candlemaker_weapon_4" .atk 0% .dmg 7 13 .crit 10% .spd 8 .upgradeRequirementCode 3
+weapon: .name "candlemaker_weapon_0" .atk 0% .dmg 4 7 .crit 4% .spd 6
+weapon: .name "candlemaker_weapon_1" .atk 0% .dmg 5 8 .crit 5% .spd 6 .upgradeRequirementCode 0
+weapon: .name "candlemaker_weapon_2" .atk 0% .dmg 6 10 .crit 6% .spd 7 .upgradeRequirementCode 1
+weapon: .name "candlemaker_weapon_3" .atk 0% .dmg 6 11 .crit 7% .spd 7 .upgradeRequirementCode 2
+weapon: .name "candlemaker_weapon_4" .atk 0% .dmg 7 13 .crit 8% .spd 8 .upgradeRequirementCode 3
 armour: .name "candlemaker_armour_0" .def 10% .prot 0 .hp 19 .spd 0
 armour: .name "candlemaker_armour_1" .def 15% .prot 0 .hp 23 .spd 0 .upgradeRequirementCode 0
 armour: .name "candlemaker_armour_2" .def 20% .prot 0 .hp 27 .spd 0 .upgradeRequirementCode 1
