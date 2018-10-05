@@ -119,7 +119,7 @@
   },
   {
     "id": "buff_stat_tooltip_torchlight_burn_percent",
-    "data": "%d%% faster Torch burn"
+    "data": "Torch burns much faster 2/rds"
   },
   {
     "id": "camping_skill_name_wax_coating",
