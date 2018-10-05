@@ -33,7 +33,7 @@
 <entry id="candlemaker_weapon_4"><![CDATA["The Endless Torch"]]></entry>
 <entry id="effect_tooltip_clear_stress_dot"><![CDATA[Cure {colour_start|stress}Horror{colour_end}]]></entry>
 <entry id="buff_rule_tooltip_target_is_stealthed"><![CDATA[%s vs. {colour_start|stealth}Stealthed{colour_end}]]></entry>
-<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[%d%% faster Torch burn]]></entry>
+<entry id="buff_stat_tooltip_torchlight_burn_percent"><![CDATA[Torch burns much faster 2/rds]]></entry>
 <entry id="camping_skill_name_wax_coating"><![CDATA[Wax Coating (In Development)]]></entry>
 <entry id="camping_skill_name_sixteen_candles"><![CDATA[Sixteen Candles (In Development)]]></entry>
 <entry id="camping_skill_name_flickering_light"><![CDATA[Flickering Light (In Development)]]></entry>

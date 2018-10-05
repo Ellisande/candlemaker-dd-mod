@@ -87,7 +87,7 @@ effect: .name "CM Bleed Damage Increase 1" .target "performer" .curio_result_typ
 effect: .name "CM Bleed Damage Increase 2" .target "performer" .curio_result_type "positive" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .damage_low_multiply 230% .damage_high_multiply 230% .on_hit true .on_miss false
 effect: .name "CM Bleed Damage Increase 3" .target "performer" .curio_result_type "positive" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .damage_low_multiply 230% .damage_high_multiply 230% .on_hit true .on_miss false
 effect: .name "CM Bleed Damage Increase 4" .target "performer" .curio_result_type "positive" .chance 100% .keyStatus "bleeding" .combat_stat_buff 1 .damage_low_multiply 230% .damage_high_multiply 230% .on_hit true .on_miss false
-effect: .name "Increase Torch Burn" .target "performer" .curio_result_type "negative" .chance 100% .duration 2 .buff_type torchlight_burn_percent .buff_amount 3 .on_hit true .on_miss false
+effect: .name "Increase Torch Burn" .target "performer" .curio_result_type "negative" .chance 100% .duration 2 .buff_type torchlight_burn_percent .buff_amount 4 .on_hit true .on_miss false
 effect: .name "CM Protection Decrease 0" .target "target" .curio_result_type "negative" .chance 100% .duration 2 .combat_stat_buff 1 .protection_rating_add -10% .on_hit true .on_miss true .apply_once false
 effect: .name "CM Protection Decrease 1" .target "target" .curio_result_type "negative" .chance 110% .duration 2 .combat_stat_buff 1 .protection_rating_add -10% .on_hit true .on_miss true .apply_once false
 effect: .name "CM Protection Decrease 2" .target "target" .curio_result_type "negative" .chance 120% .duration 2 .combat_stat_buff 1 .protection_rating_add -10% .on_hit true .on_miss true .apply_once false

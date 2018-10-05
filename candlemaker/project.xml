@@ -6,15 +6,14 @@
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
 	<UpdateDetails>
-		Wax Coating: 
-		 * Steal buff now effects only the targetted unit
-		Embers:
-		 * Adds -10% prot debuff
+		Blazing Star:
+		 * Increase torch burn to 400% for 2 rounds
+		 * Modify torch burn tooltip to just say "Torch burns much faster"
 	</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>30</VersionMinor>
+	<VersionMinor>31</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>class</Tags>
