@@ -5,7 +5,7 @@ const base = {
   chance: "100%",
   duration: "2",
   buff_type: "torchlight_burn_percent",
-  buff_amount: "3",
+  buff_amount: "4",
   on_hit: "true",
   on_miss: "false"
 };
