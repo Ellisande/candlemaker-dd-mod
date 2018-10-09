@@ -9,6 +9,7 @@
     "react-json-pretty": "^1.7.9",
     "react-redux": "^5.0.7",
     "react-scripts": "1.1.5",
+    "react-typeahead": "^2.0.0-alpha.8",
     "recompose": "^0.30.0",
     "redux": "^4.0.0",
     "xml2js": "^0.4.19"
