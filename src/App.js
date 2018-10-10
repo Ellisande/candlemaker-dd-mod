@@ -81,37 +81,42 @@ const RawSkill = ({ skills, currentLevel, setCurrentLevel, setLinked }) => {
   return (
     <div>
       <div>{cleanId}</div>
-      <div>Level: {level}</div>
-      <div>
-        {_.range(0, skills.length).map(i => (
-          <span
-            onClick={() => setCurrentLevel(i)}
-            key={i}
-            style={{ padding: "5px", color: "blue", cursor: "pointer" }}
-          >
-            {i}
-          </span>
-        ))}
+      <div style={{ display: "flex" }}>
+        <div>Level: {level}</div>
+        <div style={{ marginLeft: "3px" }}>
+          (
+          {_.range(0, skills.length).map(i => (
+            <span
+              onClick={() => setCurrentLevel(i)}
+              key={i}
+              style={{ padding: "5px", color: "blue", cursor: "pointer" }}
+            >
+              {i}
+            </span>
+          ))}
+          )
+        </div>
       </div>
       Attributes:
-      <ul>
+      <div style={{ paddingLeft: "5px", marginBottom: "10px" }}>
         {_.map(attributes, (value, key) => (
           <Attribute key={key} attribute={key} value={value} />
         ))}
-      </ul>
+      </div>
       Triggers: (effect or buff)
-      <ul>
+      <div
+        style={{ display: "flex", flexDirection: "column", paddingLeft: "5px" }}
+      >
         {triggers.map(trig => (
-          <li key={trig}>
-            <span
-              style={{ color: "blue", cursor: "pointer" }}
-              onClick={() => setLinked(trig)}
-            >
-              {trig}
-            </span>
-          </li>
+          <span
+            style={{ color: "blue", cursor: "pointer" }}
+            onClick={() => setLinked(trig)}
+            key={trig}
+          >
+            {trig}
+          </span>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
@@ -138,7 +143,9 @@ const RawLinkedSkills = ({ baseSkill, linkedSkills, setLinkedSkills }) => {
   const setSecondLinked = linkedIndex =>
     setLinkedSkills([linkedSkills[0], groupedEffects[cleanName(linkedIndex)]]);
   return (
-    <div style={{ display: "flex", justifyContent: "space-around" }}>
+    <div
+      style={{ display: "flex", justifyContent: "space-around", width: "100%" }}
+    >
       <Skill skills={baseSkill} setLinked={setFirstLinked} />
       {linkedSkills[0] && (
         <Skill skills={linkedSkills[0]} setLinked={setSecondLinked} />
@@ -166,21 +173,50 @@ const LinkedSkills = compose(
 )(RawLinkedSkills);
 
 const RawEffectPicker = ({ selectedEffect, setSelectedEffect }) => (
-  <div>
+  <div
+    style={{
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center"
+    }}
+  >
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        minWidth: "50%",
+        maxWidth: "50%"
+      }}
+    >
+      <div>Search for an effect</div>
+      <Typeahead
+        options={Object.keys(groupedEffects)}
+        onOptionSelected={option => setSelectedEffect(option)}
+        defaultValue="embers"
+        value="embers"
+        maxVisible={5}
+      />
+    </div>
+    <div
+      style={{
+        borderBottom: "2px solid grey",
+        minHeight: "1px",
+        width: "80%",
+        marginBottom: "5px"
+      }}
+    >
+      &nbsp;
+    </div>
     <LinkedSkills baseSkill={groupedEffects[selectedEffect]} />
-    <div>Search for an effect</div>
-    <Typeahead
-      options={Object.keys(groupedEffects)}
-      onOptionSelected={option => setSelectedEffect(option)}
-      defaultValue="embers"
-      value="embers"
-    />
   </div>
 );
 
-const EffectPicker = withState("selectedEffect", "setSelectedEffect", "embers")(
-  RawEffectPicker
-);
+const EffectPicker = compose(
+  withState("selectedEffect", "setSelectedEffect", "embers")
+)(RawEffectPicker);
 
 class App extends Component {
   render() {
