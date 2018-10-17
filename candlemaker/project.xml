@@ -7,13 +7,20 @@
 	<Language>english</Language>
 	<UpdateDetails>
 		Blazing Star:
-		 * Increase torch burn to 400% for 2 rounds
-		 * Modify torch burn tooltip to just say "Torch burns much faster"
+		 * Reduced torch increase to 25
+		 * Reduced wild stacks to 1
+		 * No longer causes torch to burn faster
+		Mere Trickery:
+		 * Increase torch increase to 70
+		 * Now increases torch burn rate for 2 rounds
+		 * No longer reduces stress
+		Snuff:
+		 * Reduced torch decrease from 75 to 70
 	</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>31</VersionMinor>
+	<VersionMinor>32</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>class</Tags>
