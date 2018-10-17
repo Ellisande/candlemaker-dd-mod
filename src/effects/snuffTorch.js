@@ -5,7 +5,7 @@ const base = {
   target: "'global'",
   chance: "100%",
   curio_result_type: "'negative'",
-  torch_decrease: "75",
+  torch_decrease: "70",
   on_hit: "true",
   on_miss: "false",
   apply_once: "true",
@@ -13,11 +13,11 @@ const base = {
 };
 
 const torchLevels = {
-  0: 75,
-  1: 75,
-  2: 75,
-  3: 75,
-  4: 75
+  0: 70,
+  1: 70,
+  2: 70,
+  3: 70,
+  4: 70
 };
 
 const allLevels = generateLevels(level => ({
