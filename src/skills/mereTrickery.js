@@ -11,9 +11,10 @@ const base = {
   is_crit_valid: "False",
   per_battle_limit: 3,
   effect: [
-    "'CM Torch Increase Minor 0'",
+    "'CM Blazing Torch 0'",
     "'CM Mere Trickery Buff 0'",
-    "'CM Wild Single'"
+    "'CM Wild Double'",
+    "'Increase Torch Burn'"
   ],
   is_stall_invalidating: "false"
 };
