@@ -26,11 +26,10 @@ const base = {
   is_crit_valid: "false",
   can_crit_heal: "false",
   effect: [
-    "'CM Blazing Torch 0'",
+    "'CM Torch Increase Minor 0'",
     "'CM Group Healdot 0'",
-    "'CM Wild Double'",
-    "'Disable Healing Abilities'",
-    "'Increase Torch Burn'"
+    "'CM Wild Single'",
+    "'Disable Healing Abilities'"
   ],
   is_stall_invalidating: "true"
 };
