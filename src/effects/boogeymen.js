@@ -7,8 +7,8 @@ const base = {
   chance: "100%",
   duration: "1",
   combat_stat_buff: 1,
-  damage_low_multiply: 0.8,
-  damage_high_multiply: 0.8,
+  damage_low_multiply: 0.6,
+  damage_high_multiply: 0.6,
   on_hit: "true",
   on_miss: "true",
   apply_once: "true"
