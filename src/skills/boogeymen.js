@@ -13,7 +13,7 @@ const base = {
     "'CM Torch Decrease Minor 0'",
     "'CM Boogeymen Target Stress'",
     "'CM Boogeymen 0'",
-    "'CM Boogeymen Pull'",
+    "'CM Boogeymen Shuffle'",
     "'CM Poised Single'"
   ],
   is_stall_invalidating: "false"
