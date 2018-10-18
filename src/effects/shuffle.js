@@ -1,9 +1,9 @@
 const base = {
-  name: "'CM Boogeymen Pull'",
+  name: "'CM Boogeymen Shuffle'",
   target: "'target'",
-  curio_result_type: "'positive'",
-  chance: "110%",
-  pull: 1,
+  curio_result_type: "'negative'",
+  chance: "80%",
+  shuffletarget: 1,
   on_hit: "true",
   on_miss: "true",
   apply_once: "true"

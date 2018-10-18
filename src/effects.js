@@ -15,7 +15,7 @@ const mereTrickeryBuff = require("./effects/mereTrickeryBuff");
 const boogeymen = require("./effects/boogeymen");
 const causeStress = require("./effects/causeStress");
 const dodge = require("./effects/dodge");
-const pull = require("./effects/pull");
+const shuffle = require("./effects/shuffle");
 const stealBleed = require("./effects/stealBleed");
 const stealBlight = require("./effects/stealBlight");
 const blightDamageIncrease = require("./effects/blightDamageIncrease");
@@ -77,7 +77,7 @@ module.exports = [
   ...boogeymen,
   ...causeStress,
   ...dodge,
-  ...pull,
+  ...shuffle,
   ...stealBleed,
   ...stealBlight,
   ...blightDamageIncrease,
