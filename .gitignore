@@ -24,3 +24,4 @@ steam_workshop_uploader.log
 modfiles.txt
 package-lock.json
 *.loc
+yarn.lock
