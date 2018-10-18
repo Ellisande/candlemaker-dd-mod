@@ -6,21 +6,15 @@
 	<Title>Candlemaker Hero</Title>
 	<Language>english</Language>
 	<UpdateDetails>
-		Blazing Star:
-		 * Reduced torch increase to 25
-		 * Reduced wild stacks to 1
-		 * No longer causes torch to burn faster
-		Mere Trickery:
-		 * Increase torch increase to 70
-		 * Now increases torch burn rate for 2 rounds
-		 * No longer reduces stress
-		Snuff:
-		 * Reduced torch decrease from 75 to 70
+		Boogeymen:
+		 * Reduced damage provided from 80%-105% to 60%-85%
+		 * Reduce chance to move the target unit from 100% to 80%
+		 * Changed the possible move type from push forward 1 to shuffle
 	</UpdateDetails>
 	<Visibility>friends</Visibility>
 	<UploadMode>direct_upload</UploadMode>
 	<VersionMajor>1</VersionMajor>
-	<VersionMinor>32</VersionMinor>
+	<VersionMinor>33</VersionMinor>
 	<TargetBuild>24357</TargetBuild>
 	<Tags>
 		<Tags>class</Tags>
